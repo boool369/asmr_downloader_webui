@@ -1,0 +1,13 @@
+{
+  "output_dir": "C:/ASMR",
+  "default_file_types": [
+    "audio",
+    "image",
+    "text"
+  ],
+  "hq_audio_only": false,
+  "api_url": "https://api.asmr-200.com",
+  "proxy": "",
+  "listen_host": "0.0.0.0",
+  "listen_port": 7683
+}

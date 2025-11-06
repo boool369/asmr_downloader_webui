@@ -1,8 +1,8 @@
 ## 🎧 ASMR Downloader WebUI - 极致沉浸式音频下载利器
 
-[](https://www.google.com/search?q=LICENSE)
-[](https://www.python.org/downloads/)
-[](https://www.gradio.app/)
+[![License Search](https://img.shields.io/badge/License-Search-blue.svg?style=flat-square)](https://www.google.com/search?q=LICENSE)
+[![Python Download](https://img.shields.io/badge/Download-Python-3776AB.svg?style=flat-square&logo=python&logoColor=white)](https://www.python.org/downloads/)
+[![Gradio App](https://img.shields.io/badge/Gradio-App-FF69B4.svg?style=flat-square&logo=gradio&logoColor=white)](https://www.gradio.app/)
 
 -----
 

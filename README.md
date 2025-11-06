@@ -1,4 +1,4 @@
-<img width="2348" height="1283" alt="image" src="https://github.com/user-attachments/assets/d2558e51-e632-41af-9e35-bd004f795d2b" />## 🎧 ASMR Downloader WebUI - 极致沉浸式音频下载利器
+## 🎧 ASMR Downloader WebUI - 极致沉浸式音频下载利器
 
 [](https://www.google.com/search?q=LICENSE)
 [](https://www.python.org/downloads/)
@@ -81,7 +81,7 @@ python app.py
 3.  搜索结果将展示在表格中。
 4.  （可选）点击任一 RJ ID，可联动到下载页查看详情。
 5.  点击 **“⬇️ 批量下载列表中所有作品”**，程序将按照列表顺序逐个作品进行下载。
-
+<img width="2348" height="1283" alt="Image" src="https://github.com/user-attachments/assets/cb0590de-7884-4596-9b83-3c18d8be1949" />
 
 -----
 

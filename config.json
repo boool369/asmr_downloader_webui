@@ -8,6 +8,6 @@
   "hq_audio_only": false,
   "api_url": "https://api.asmr-200.com",
   "proxy": "",
-  "listen_host": "0.0.0.0",
+  "listen_host": "127.0.0.1",
   "listen_port": 7683
 }

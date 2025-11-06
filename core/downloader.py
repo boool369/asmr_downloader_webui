@@ -26,14 +26,21 @@ API_INDEX = 0  # 当前使用的 API 索引
 
 # --- 辅助函数：日志、配置和格式化 ---
 
-async def log_message(message: str):
-    """异步写入日志"""
+def log_message_sync(message: str):
+    """同步写入日志，用于避免在同步回调中产生警告"""
     try:
-        async with aiofiles.open(LOG_FILE, "a", encoding="utf-8") as f:
-            await f.write(f"[{datetime.now().isoformat()}] {message}\n")
+        with open(LOG_FILE, "a", encoding="utf-8") as f:
+            f.write(f"[{datetime.now().isoformat()}] {message}\n")
     except Exception as e:
         # 兜底防止日志写入失败
-        print(f"Error writing to log: {e}")
+        print(f"Error writing to log (sync): {e}")
+
+
+async def log_message(message: str):
+    """异步写入日志，主要用于 API 请求和 UI 逻辑"""
+    # 异步写入性能更好，但这里为了兼容性，也可以直接调用同步函数
+    # 确保在异步上下文中使用 await
+    await asyncio.to_thread(log_message_sync, message)
 
 
 def read_log_sync(lines: int = 200) -> str:
@@ -248,18 +255,30 @@ async def download_worker(
     file_name = file_info['filename']
     expected_size = file_info.get('size', 0)
 
+    # ❗ 修正：更新 sanitize_filename 函数，确保扩展名分隔符被保留
+    def sanitize_filename(name):
+        """
+        清理路径中的非法字符，并安全地保留文件扩展名。
+        """
+        # 1. 移除或替换 Windows 非法字符 \ / : * ? " < > |
+        safe_name = re.sub(r'[\\/:*?"<>|]', ' ', name).strip()
+
+        # 2. 移除连续的点（.. -> _）
+        safe_name = safe_name.replace("..", "_")
+
+        # 3. 分离文件名和扩展名 (只处理最后一个点)
+        base, ext = os.path.splitext(safe_name)
+
+        # 4. 清理文件名部分中的点，将其替换为下划线
+        safe_base = base.replace(".", "_")
+
+        # 5. 组合: safe_base + .ext
+        return safe_base + ext
+
     # ❗ 关键修复：使用 folder_path 构建完整的保存路径
     folder_path_str = file_info.get("folder_path", "")
 
-    # 清理路径中的非法字符（Windows/Linux 兼容）
-    def sanitize_filename(name):
-        # 移除或替换 Windows 非法字符 \ / : * ? " < > |
-        # 此外，移除导致 Gradio UI 问题的特殊字符
-        name = re.sub(r'[\\/:*?"<>|]', ' ', name).strip()
-        # 移除路径中的非法字符
-        name = name.replace("..", "_").replace(".", " ")
-        return name
-
+    # 清理文件夹路径和文件名
     safe_folder_path = Path(sanitize_filename(folder_path_str).replace("/", os.sep))
     safe_file_name = sanitize_filename(file_name)
 
@@ -275,13 +294,13 @@ async def download_worker(
     if full_path.exists():
         downloaded_size = full_path.stat().st_size
         if expected_size > 0 and downloaded_size == expected_size:
-            await log_message(f"File already exists (skipping): {file_name}")
+            log_message_sync(f"File already exists (skipping): {file_name}")
             progress_callback(rj_id, file_name, expected_size, expected_size)
             return True
         elif downloaded_size < expected_size:
             mode = 'ab'
             headers_range['Range'] = f'bytes={downloaded_size}-'
-            await log_message(f"Resuming download: {file_name}, from {format_size(downloaded_size)}")
+            log_message_sync(f"Resuming download: {file_name}, from {format_size(downloaded_size)}")
         else:
             # 文件大小异常，重新下载（或 expected_size=0 但已下载）
             full_path.unlink(missing_ok=True)
@@ -312,7 +331,7 @@ async def download_worker(
                 if total_size == 0 and expected_size > 0:
                     total_size = expected_size
 
-                await log_message(f"Starting download: {file_name} (Total size {format_size(total_size)})")
+                log_message_sync(f"Starting download: {file_name} (Total size {format_size(total_size)})")
 
                 async with aiofiles.open(full_path, mode) as f:
                     chunk_size = 8192
@@ -329,14 +348,14 @@ async def download_worker(
                 # 最终更新进度条至 100%
                 progress_callback(rj_id, file_name, total_size, total_size)
 
-            await log_message(f"Download successful: {file_name}")
+            log_message_sync(f"Download successful: {file_name}")
             return True
 
         except aiohttp.ClientResponseError as e:
-            await log_message(f"Download failed (HTTP {e.status}): {file_name}")
+            log_message_sync(f"Download failed (HTTP {e.status}): {file_name}")
             return False
         except Exception as e:
-            await log_message(f"Download failed (Unknown error): {file_name}, {e}")
+            log_message_sync(f"Download failed (Unknown error): {file_name}, {e}")
             return False
 
 

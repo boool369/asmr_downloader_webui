@@ -88,7 +88,7 @@ python app.py
 
 ### 🤝 贡献与支持
 
-如果您在使用过程中遇到任何问题，欢迎提交 [Issue](https://www.google.com/search?q=YOUR_REPO_LINK/issues)。如果您有改进建议或新的功能点，我们非常欢迎通过 [Pull Request](https://www.google.com/search?q=YOUR_REPO_LINK/pulls) 的方式参与项目贡献！
+如果您在使用过程中遇到任何问题，欢迎提交 [![GitHub issues](https://img.shields.io/github/issues/boool369/asmr_downloader_webui.svg?style=for-the-badge&logo=github)](https://github.com/boool369/asmr_downloader_webui/issues)。如果您有改进建议或新的功能点，我们非常欢迎通过 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/boool369/asmr_downloader_webui.svg?style=for-the-badge&logo=github)](https://github.com/boool369/asmr_downloader_webui/pulls) 的方式参与项目贡献！
 
 -----
 

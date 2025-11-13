@@ -2,8 +2,7 @@ import gradio as gr
 import json
 import asyncio
 from pathlib import Path
-# 导入所需的类型提示，确保 AsyncGenerator 导入
-from typing import Dict, Any, List, Tuple, AsyncGenerator
+from typing import Dict, Any, List, Tuple, AsyncGenerator, Callable
 
 # 假设 core.downloader 模块可用
 from core.downloader import (
@@ -11,7 +10,6 @@ from core.downloader import (
     process_download_job,
     load_config,
     read_log_sync,
-    # ❗ 必须使用异步版本
     log_message,
     search_work_async,
     process_bulk_download_job
@@ -55,9 +53,9 @@ def update_config_ui(
     new_output_dir = str(Path(output_dir).resolve())
 
     try:
-        # 使用配置中的默认端口 7683
         port_num = int(listen_port)
     except ValueError:
+        # 如果端口号无效，使用当前配置中的默认值
         port_num = current_config.get("listen_port", 7683)
 
     new_config = {
@@ -75,9 +73,7 @@ def update_config_ui(
 
 # 异步函数：获取信息
 async def handle_get_info(rj_id: str) -> Tuple[List[List[Any]], str, str]:
-    """
-    处理“获取信息”按钮点击事件，获取文件列表并转换为 Dataframe 格式。
-    """
+    """处理“获取信息”按钮点击事件，获取文件列表并转换为 Dataframe 格式。"""
     if not rj_id:
         return [], "❌ 错误: RJ ID 不能为空。", "无法获取信息"
 
@@ -85,15 +81,12 @@ async def handle_get_info(rj_id: str) -> Tuple[List[List[Any]], str, str]:
     full_rj_id = f"RJ{rj_id}"
 
     try:
-        # 调用核心下载器逻辑
         files_info_dicts, title_or_error = await get_work_info_async(full_rj_id)
 
         if files_info_dicts:
             global download_progress_map
-            # 存储文件名映射用于进度跟踪
             download_progress_map[full_rj_id] = {item['index']: item['filename'] for item in files_info_dicts}
 
-            # 转换 List[Dict] 为 Gradio Dataframe 需要的 List[List] 格式
             data_for_dataframe = [
                 [
                     item['index'],
@@ -109,44 +102,45 @@ async def handle_get_info(rj_id: str) -> Tuple[List[List[Any]], str, str]:
             return [], f"❌ 获取信息失败: {title_or_error}", "无法获取信息"
 
     except Exception as e:
-        # 修正：确保在异步上下文中使用 await 调用异步日志函数
         await log_message(f"Critical error in handle_get_info for {full_rj_id}: {e}")
         return [], f"❌ 严重错误: {e}", "无法获取信息"
 
 
 def format_progress_data(rj_id: str, filename: str, downloaded: int, total: int) -> Tuple[str, str, float]:
     """格式化进度数据，供 Gradio Markdown 和 Progress 使用"""
-    if rj_id not in download_progress_map:
-        # 如果下载中途 rj_id 不见了，使用默认值
-        index = 0
-    else:
-        index_map = {v: k for k, v in download_progress_map[rj_id].items()}
-        index = index_map.get(filename, 0)
+    index_map = {v: k for k, v in download_progress_map.get(rj_id, {}).items()}
+    index = index_map.get(filename, 0)
 
-    status = "RUNNING"
+    status_icon = "⚪"
+    status_text = "等待中"
     progress_percent = 0.0
 
     if total > 0:
         progress_percent = (downloaded / total)
 
-    if downloaded == 0 and total == 0:
-        status = "PENDING"
-    elif progress_percent >= 0.999:
-        status = "COMPLETED"
-        progress_percent = 1.0
+        if progress_percent >= 0.999:
+            status_icon = "🟢"
+            status_text = "完成"
+            progress_percent = 1.0
+        elif progress_percent > 0:
+            status_icon = "🟡"
+            status_text = "下载中"
+        else:
+            status_icon = "🔵"
+            status_text = "排队/连接中"
 
-    # 转换为 MB/GB
     def bytes_to_human(b):
         if b < 1024 * 1024: return f"{b / 1024:.2f} KB"
         if b < 1024 * 1024 * 1024: return f"{b / (1024 * 1024):.2f} MB"
         return f"{b / (1024 * 1024 * 1024):.2f} GB"
 
-    status_str = f"文件 {index}: {filename[:40]}... [{status}]"
+    # 美化后的状态字符串
+    status_str = f"{status_icon} **文件 {index}**: {filename[:40]}..."
 
-    # 使用 Markdown 格式增强显示
+    # 美化后的进度字符串
     progress_str = (
-        f"**进度:** {progress_percent * 100:.2f}% | "
-        f"**大小:** {bytes_to_human(downloaded)} / {bytes_to_human(total)}"
+        f"**状态**: {status_text} | **进度**: {progress_percent * 100:.2f}% | "
+        f"**大小**: {bytes_to_human(downloaded)} / {bytes_to_human(total)}"
     )
 
     return status_str, progress_str, progress_percent
@@ -156,7 +150,7 @@ def format_progress_data(rj_id: str, filename: str, downloaded: int, total: int)
 async def handle_download(
         rj_id: str,
         selected_indices_json: str,
-        progress: gr.Progress,  # Gradio 自动注入
+        progress: gr.Progress,
 ) -> AsyncGenerator[gr.update, None]:
     """处理单个 RJ ID 下载任务，通过 yield 实时更新进度 Textbox"""
 
@@ -174,10 +168,8 @@ async def handle_download(
             yield gr.update(value="⚠️ 没有文件被选中。请先获取文件列表。")
             return
 
-        # 初始化显示
         yield gr.update(value=f"正在启动下载任务 (RJ{full_rj_id})...")
 
-        # 用于存储所有文件的进度信息，方便统一显示
         current_file_progress: Dict[str, Tuple[str, str, float]] = {}
         total_files = len(selected_indices)
 
@@ -186,34 +178,37 @@ async def handle_download(
             status_str, progress_str, progress_percent = format_progress_data(
                 rj_id_local, filename, downloaded, total
             )
-
-            # 更新内部状态
             current_file_progress[filename] = (status_str, progress_str, progress_percent)
 
-            # 更新 Gradio 顶部进度条 (全局进度条)
-            # ❗ 修正：增加 callable() 检查，防止 progress 对象被 Gradio 回收后，后台线程继续调用它
+            # 更新 Gradio 内部进度条 (总任务进度)
+            completed_count = sum(1 for _, _, p in current_file_progress.values() if p >= 0.999)
+            total_progress_percent = completed_count / total_files
+
             if progress and callable(progress):
-                # 使用当前文件的进度百分比，让进度条波动起来
-                progress(progress_percent, desc=f"文件下载中: {filename[:25]}... ({progress_percent * 100:.1f}%)")
+                progress(total_progress_percent,
+                         desc=f"文件下载中: {filename[:25]}... ({total_progress_percent * 100:.1f}%)")
 
-            # 下载器中的 log_message_sync 已被调用，这里无需再次调用，避免警告
-            pass
-
-        # 启动下载任务，并将回调函数传入
+        # 启动下载任务
         process_task = asyncio.create_task(
             process_download_job(full_rj_id, selected_indices, progress_callback)
         )
 
         # 实时更新循环：每 0.5 秒更新一次 Textbox
         while not process_task.done():
-            # 构建当前的实时进度信息
             progress_output_lines = [f"**--- 任务状态 (RJ{full_rj_id}) ---**"]
 
-            # 遍历当前正在下载/已完成的文件
             completed_count = 0
-            for filename, (status_str, progress_str, progress_percent) in current_file_progress.items():
-                # 实时更新行：显示文件名和进度
-                progress_output_lines.append(f"- **{status_str}**\n   - {progress_str}")
+
+            # 排序文件，让完成的文件排在前面
+            sorted_progress = sorted(
+                current_file_progress.items(),
+                key=lambda item: item[1][2],
+                reverse=True  # 进度高的（完成的）排在前面
+            )
+
+            for filename, (status_str, progress_str, progress_percent) in sorted_progress:
+                # 使用 Markdown 列表嵌套，美观且清晰
+                progress_output_lines.append(f"{status_str}\n   - {progress_str}")
                 if progress_percent >= 0.999:
                     completed_count += 1
 
@@ -222,83 +217,99 @@ async def handle_download(
                 f"**总进度:** 已完成 **{completed_count}** / **{total_files}** 个文件"
             )
 
-            # 使用 yield 实时更新前端 Markdown
             yield gr.update(value="\n".join(progress_output_lines))
 
-            await asyncio.sleep(0.5)  # 0.5 秒刷新一次
+            await asyncio.sleep(0.5)
 
         # 任务完成后，获取结果
         try:
             success = await process_task
         except Exception as e:
-            # 修正：确保在异步上下文中使用 await 调用异步日志函数
             await log_message(f"Fatal error during download task: {e}")
             success = False
 
         if success:
             final_message = f"✅ **下载任务完成！** (RJ{full_rj_id})。所有 {total_files} 个文件已下载到：{load_config()['output_dir']}/{full_rj_id}"
-            # 最终更新全局进度条到 100%
-            # 确保 progress 存在且可调用
             if progress and callable(progress):
                 progress(1.0, desc=f"下载完成: RJ{full_rj_id}")
         else:
             final_message = f"❌ **下载任务失败或未完全完成。** 详情请查看日志。"
 
-        # 最终输出给 Markdown
         yield gr.update(value=final_message)
 
     except json.JSONDecodeError:
         yield gr.update(value="❌ 错误: 无法解析选中的文件索引。")
     except Exception as e:
-        # 修正：确保在异步上下文中使用 await 调用异步日志函数
         await log_message(f"Fatal error in handle_download for {rj_id}: {e}")
         yield gr.update(value=f"❌ 严重错误: {e}")
 
 
-# 异步函数：处理通用批量下载任务 (批量下载不使用生成器，仅依赖全局进度条)
-async def handle_bulk_download(rj_ids_json: str, progress: gr.Progress) -> str:
-    """处理搜索结果列表的批量下载任务 (作品顺序下载)"""
+# 异步生成器函数：处理通用批量下载任务 (已修改为实时进度)
+async def handle_bulk_download(rj_ids_json: str, progress: gr.Progress) -> AsyncGenerator[str, None]:
+    """
+    处理搜索结果列表的批量下载任务 (作品顺序下载)，
+    通过 yield 语句实时更新 bulk_download_status。
+    """
     try:
         rj_ids = json.loads(rj_ids_json)
     except json.JSONDecodeError:
-        return "❌ 错误：无法解析 RJ ID 列表。"
+        yield "❌ 错误：无法解析 RJ ID 列表。"
+        return
 
     if not rj_ids:
-        return "❌ 错误：搜索结果中没有 RJ ID。请先进行搜索。"
+        yield "❌ 错误：搜索结果中没有 RJ ID。请先进行搜索。"
+        return
 
     total_works = len(rj_ids)
 
-    # Gradio Progress 回调函数
+    # 存储最新的状态消息，用于在循环中 yield
+    latest_status_message: str = f"找到 {total_works} 个作品。开始按顺序处理..."
+
     def overall_progress_callback(current_work_index: int, total_works: int, status_message: str):
-        """整体进度回调，更新 Gradio 进度条"""
+        """整体进度回调，更新 Gradio 进度条，并更新 latest_status_message"""
+        nonlocal latest_status_message
+        latest_status_message = status_message
+
         if total_works > 0:
-            # 进度条显示总任务的完成度
-            percent = (current_work_index / total_works) * 0.999
+            # 使用一个小的偏移量来确保 Gradio 进度条可以更新
+            percent = (current_work_index / total_works)
         else:
             percent = 0.0
 
-        # 修正：增加 callable() 检查
+        if percent > 0.999:
+            percent = 1.0
+
         if progress and callable(progress):
+            # 持续更新 Gradio 内部进度条的描述
             progress(percent, desc=f"批量下载进度: {status_message}")
 
+    yield latest_status_message  # 初始状态
+
+    # 启动下载任务
+    process_task = asyncio.create_task(
+        process_bulk_download_job(rj_ids, overall_progress_callback)
+    )
+
+    # 实时更新循环：每 0.5 秒 yield 一次最新的状态
+    while not process_task.done():
+        yield latest_status_message
+        await asyncio.sleep(0.5)
+
+    # 任务完成后，获取结果
     try:
-        # 调用核心下载器逻辑
-        success, final_message = await process_bulk_download_job(rj_ids, overall_progress_callback)
-
-        # 修正：增加 callable() 检查
-        if success and progress and callable(progress):
-            progress(1.0, desc=f"批量下载进度: {final_message}")
-            return f"✅ **批量下载任务完成！** {final_message}"
-        else:
-            # 确保即使失败也更新进度条
-            if progress and callable(progress):
-                progress(total_works / total_works * 0.999, desc=f"批量下载进度: {final_message}")
-            return f"❌ **批量下载任务未完全成功：** {final_message}"
-
+        success, final_message = await process_task
     except Exception as e:
-        # 修正：确保在异步上下文中使用 await 调用异步日志函数
-        await log_message(f"Fatal error in handle_bulk_download: {e}")
-        return f"❌ 严重错误：{e}"
+        await log_message(f"Fatal error during bulk download task: {e}")
+        success = False
+        final_message = f"❌ 严重错误：{e}"
+
+    if progress and callable(progress):
+        progress(1.0, desc=f"批量下载完成: {final_message}")
+
+    if success:
+        yield f"✅ **批量下载任务完成！** {final_message}"
+    else:
+        yield f"❌ **批量下载任务未完全成功：** {final_message}"
 
 
 async def handle_search(keyword: str, page: str, size: str) -> Tuple[List[List[Any]], str]:
@@ -312,14 +323,16 @@ async def handle_search(keyword: str, page: str, size: str) -> Tuple[List[List[A
     except ValueError:
         return [], "页码和每页数量必须是数字。"
 
-    # 修正：确保在异步上下文中使用 await 调用异步日志函数
-    await log_message(f"Handling search for '{keyword}' on page {page_num}, size {size_num}")
-
     try:
         results_dicts, total_pages = await search_work_async(keyword, page_num, size_num)
 
         if not results_dicts:
             return [], f"❌ 未找到关键词 '{keyword}' 的相关作品。"
+
+        # --- BUG FIX CORE: 强制裁剪结果列表到请求的数量 (size_num) ---
+        # 即使 API 已经返回了正确数量，这一步作为最后的防线，确保前端不会收到超过期望的行数
+        # 从而避免 Gradio Dataframe 默认只显示前 N 行的问题
+        display_results = results_dicts[:size_num]
 
         data_for_dataframe = [
             [
@@ -327,13 +340,15 @@ async def handle_search(keyword: str, page: str, size: str) -> Tuple[List[List[A
                 item['title'],
                 item['author'],
                 item['total_tracks']
-            ] for item in results_dicts
+            ] for item in display_results  # 使用裁剪后的列表
         ]
 
-        status_msg = f"✅ 搜索成功！找到 {len(results_dicts)} 个结果。总页数: {total_pages}。"
+        # 状态信息使用实际显示的行数
+        status_msg = f"✅ 搜索成功！显示 {len(display_results)} 个结果。总页数: {total_pages}。"
         return data_for_dataframe, status_msg
 
     except Exception as e:
+        await log_message(f"Search failed for '{keyword}': {e}")
         return [], f"❌ 搜索失败: {e}"
 
 
@@ -341,7 +356,6 @@ def extract_rj_id_from_selection_event(evt: gr.SelectData, search_data: List[Lis
     """提取 RJ ID"""
     if evt.index:
         row_index = evt.index[0]
-
         if 0 <= row_index < len(search_data):
             return search_data[row_index][0]
     return ""
@@ -358,11 +372,21 @@ def create_ui():
     current_config = load_current_config()
     default_proxy = current_config.get("proxy", "")
     default_host = current_config.get("listen_host", "127.0.0.1")
-    # 使用配置中定义的端口 7683
     default_port = str(current_config.get("listen_port", 7683))
     max_concurrents = current_config.get("max_concurrent_downloads", 3)
 
-    with gr.Blocks(title="ASMR Downloader WebUI", theme=gr.themes.Soft()) as demo:
+    # 引入 CSS 样式，美化进度显示
+    custom_css = """
+    .markdown-container pre, .markdown-container code {
+        background-color: #f7f7f7;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 8px;
+        white-space: pre-wrap;
+    }
+    """
+
+    with gr.Blocks(title="ASMR Downloader WebUI", theme=gr.themes.Soft(), css=custom_css) as demo:
         gr.Markdown("# 🎧 ASMR Downloader Web UI")
 
         # --- 1. 配置区域 ---
@@ -455,12 +479,12 @@ def create_ui():
                 datatype=["number", "str", "str", "str", "str"],
                 label="可下载文件列表 (点击获取信息后，所有文件自动被选中)",
                 col_count=(5, "fixed"),
+                # 兼容性 FIX: 移除 'rows' 和 'height'，Dataframe 应当自动展示全部数据
                 interactive=False,
                 type="array",
                 elem_id="file_list_table"
             )
 
-            # 获取信息按钮事件
             get_info_btn.click(
                 handle_get_info,
                 inputs=[rj_id_input],
@@ -472,16 +496,15 @@ def create_ui():
                 queue=False
             )
 
-            # 下载控制和进度
             download_btn = gr.Button("🚀 开始下载全部文件", variant="stop")
 
-            # 实时进度 Markdown，使用 Markdown 格式
+            # 美化后的进度显示区域
             download_progress = gr.Markdown(
                 label="下载进度/最终状态 (实时进度显示)",
-                value="等待下载任务启动..."
+                value="等待下载任务启动...",
+                elem_id="download_progress_output"
             )
 
-            # 关键：使用生成器函数，通过 yield 实时更新 download_progress
             download_btn.click(
                 handle_download,
                 inputs=[rj_id_input, selected_indices_state],
@@ -504,7 +527,7 @@ def create_ui():
                 )
                 search_size = gr.Textbox(
                     label="每页数量",
-                    value="20",
+                    value="10",  # 默认 10 个
                     scale=1
                 )
                 search_btn = gr.Button("🔎 搜索作品", variant="secondary", scale=1)
@@ -518,6 +541,7 @@ def create_ui():
                 datatype=["str", "str", "str", "number"],
                 label="搜索结果 (点击一行可将 RJ ID 自动填充到下载区)",
                 col_count=(4, "fixed"),
+                # 兼容性 FIX: 移除 'rows' 和 'height'
                 interactive=False,
                 type="array",
                 elem_id="search_result_table"
@@ -538,17 +562,19 @@ def create_ui():
 
             bulk_download_status = gr.Markdown("批量下载状态：未启动")
 
-            # 搜索按钮事件：执行搜索 -> 填充表格 -> 提取所有 RJ ID -> 更新列表作品数
+            # 搜索按钮事件
             search_btn.click(
                 handle_search,
                 inputs=[search_keyword, search_page, search_size],
                 outputs=[search_result_table, search_status_message]
             ).success(
+                # 将 Dataframe 的第一列 (RJ ID) 提取出来保存到 state
                 lambda data: json.dumps([item[0] for item in data]),
                 inputs=[search_result_table],
                 outputs=[all_rj_ids_state],
                 queue=False
             ).success(
+                # 更新列表计数显示
                 lambda rj_ids_json: str(len(json.loads(rj_ids_json))),
                 inputs=[all_rj_ids_state],
                 outputs=[list_count_display],
@@ -593,7 +619,6 @@ def create_ui():
             )
             refresh_log_btn = gr.Button("🔄 刷新日志", variant="secondary")
 
-            # 保持手动刷新按钮的连接
             refresh_log_btn.click(
                 get_latest_log,
                 inputs=[],
@@ -618,7 +643,6 @@ if __name__ == "__main__":
 
     print(f"🚀 正在启动 Web UI，监听地址: {host}:{port}")
 
-    # Gradio 的 launch() 调用会阻塞程序
     ui.launch(server_name=host, server_port=port, inbrowser=True, show_api=False)
 
     print("Web UI 服务器已正常关闭。")

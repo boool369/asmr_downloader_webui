@@ -3,6 +3,7 @@ import os
 import random
 import aiohttp
 import asyncio
+# 确保 aiofiles 被正确导入，解决 NameError
 import aiofiles
 import json
 from datetime import datetime
@@ -38,8 +39,7 @@ def log_message_sync(message: str):
 
 async def log_message(message: str):
     """异步写入日志，主要用于 API 请求和 UI 逻辑"""
-    # 异步写入性能更好，但这里为了兼容性，也可以直接调用同步函数
-    # 确保在异步上下文中使用 await
+    # 使用 asyncio.to_thread 确保同步 I/O 不阻塞事件循环
     await asyncio.to_thread(log_message_sync, message)
 
 
@@ -89,13 +89,36 @@ def format_size(size_bytes: int) -> str:
     return f"{size_bytes:.2f} TB"
 
 
+# --- 辅助函数：路径/文件清理 ---
+
+def sanitize_filename(name: str) -> str:
+    """
+    清理路径中的非法字符，并安全地保留文件扩展名。
+    """
+    # 1. 移除或替换 Windows 非法字符 \ / : * ? " < > |
+    safe_name = re.sub(r'[\\/:*?"<>|]', ' ', name).strip()
+
+    # 2. 移除连续的点（.. -> _）
+    safe_name = safe_name.replace("..", "_")
+
+    # 3. 分离文件名和扩展名 (只处理最后一个点)
+    base, ext = os.path.splitext(safe_name)
+
+    # 4. 清理文件名部分中的点，将其替换为下划线
+    safe_base = base.replace(".", "_")
+
+    # 5. 组合: safe_base + .ext
+    return safe_base + ext
+
+
 # --- API 访问逻辑 ---
 
 def rotate_api():
     """切换到下一个API端点"""
     global API_INDEX
     API_INDEX = (API_INDEX + 1) % len(BASE_URLS)
-    print(f"[ASMR API] 切换到 API: {BASE_URLS[API_INDEX]}")
+    # 统一使用日志记录 API 切换
+    log_message_sync(f"[ASMR API] 切换到 API: {BASE_URLS[API_INDEX]}")
 
 
 def get_current_api():
@@ -112,13 +135,14 @@ async def fetch_with_retry(session: aiohttp.ClientSession, url_path: str, params
         "Accept": "application/json"
     }
 
+    # 每次重试时都需要最新的代理配置
+    config = load_config()
+    proxy = config.get("proxy", None)
+
     for _ in range(max_retries):
         current_api = get_current_api()
         url = f"{current_api}{url_path}"
         try:
-            # 获取代理配置
-            config = load_config()
-            proxy = config.get("proxy", None)
 
             async with session.get(url, params=params, timeout=10, proxy=proxy) as response:
                 if response.status == 200:
@@ -145,7 +169,7 @@ def recursively_transform_data_v2(
         config: Dict[str, Any]
 ) -> int:
     """
-    【修复：保留文件结构】递归遍历 API JSON 结构，收集所有文件信息并保留文件夹路径。
+    递归遍历 API JSON 结构，收集所有文件信息并保留文件夹路径。
     返回下一个可用的文件索引。
     """
     current_index = index_start
@@ -232,7 +256,6 @@ async def get_work_info_async(rj_id: str) -> Tuple[List[Dict[str, Any]], str]:
             if not all_files:
                 return [], f"{work_title} (未找到符合条件的文件)"
 
-            # 返回适合 Gradio 的 List[List] 格式（但这里返回 Dict 列表，由 app.py 转换）
             return all_files, work_title
 
     except Exception as e:
@@ -255,27 +278,6 @@ async def download_worker(
     file_name = file_info['filename']
     expected_size = file_info.get('size', 0)
 
-    # ❗ 修正：更新 sanitize_filename 函数，确保扩展名分隔符被保留
-    def sanitize_filename(name):
-        """
-        清理路径中的非法字符，并安全地保留文件扩展名。
-        """
-        # 1. 移除或替换 Windows 非法字符 \ / : * ? " < > |
-        safe_name = re.sub(r'[\\/:*?"<>|]', ' ', name).strip()
-
-        # 2. 移除连续的点（.. -> _）
-        safe_name = safe_name.replace("..", "_")
-
-        # 3. 分离文件名和扩展名 (只处理最后一个点)
-        base, ext = os.path.splitext(safe_name)
-
-        # 4. 清理文件名部分中的点，将其替换为下划线
-        safe_base = base.replace(".", "_")
-
-        # 5. 组合: safe_base + .ext
-        return safe_base + ext
-
-    # ❗ 关键修复：使用 folder_path 构建完整的保存路径
     folder_path_str = file_info.get("folder_path", "")
 
     # 清理文件夹路径和文件名
@@ -302,7 +304,7 @@ async def download_worker(
             headers_range['Range'] = f'bytes={downloaded_size}-'
             log_message_sync(f"Resuming download: {file_name}, from {format_size(downloaded_size)}")
         else:
-            # 文件大小异常，重新下载（或 expected_size=0 但已下载）
+            # 文件大小异常，重新下载
             full_path.unlink(missing_ok=True)
             downloaded_size = 0
 
@@ -327,12 +329,13 @@ async def download_worker(
                 content_length = int(response.headers.get('content-length', 0))
                 total_size = content_length + downloaded_size
 
-                # 如果 API 提供的 expected_size 更大且 total_size 为 0，则使用 expected_size
+                # 兼容处理
                 if total_size == 0 and expected_size > 0:
                     total_size = expected_size
 
                 log_message_sync(f"Starting download: {file_name} (Total size {format_size(total_size)})")
 
+                # 使用 aiofiles.open 进行异步文件操作
                 async with aiofiles.open(full_path, mode) as f:
                     chunk_size = 8192
                     update_counter = 0
@@ -355,6 +358,7 @@ async def download_worker(
             log_message_sync(f"Download failed (HTTP {e.status}): {file_name}")
             return False
         except Exception as e:
+            # NameError: aiofiles 应该在安装库后解决
             log_message_sync(f"Download failed (Unknown error): {file_name}, {e}")
             return False
 
@@ -369,10 +373,8 @@ async def process_download_job(
     """
     await log_message(f"Processing download job for {rj_id}, indices: {selected_indices}")
 
-    # 1. 重新获取完整的作品信息（确保最新的文件列表和 HQ 过滤）
     files_info_dicts, _ = await get_work_info_async(rj_id)
 
-    # 2. 过滤出用户选择的文件
     selected_files = [f for f in files_info_dicts if f['index'] in selected_indices]
 
     if not selected_files:
@@ -382,13 +384,11 @@ async def process_download_job(
     config = load_config()
     max_concurrent_downloads = config.get("max_concurrent_downloads", 3)
 
-    # 3. 设置下载目录：配置的输出目录 / RJ ID 文件夹
     base_dir = Path(config["output_dir"]) / rj_id.upper()
     base_dir.mkdir(parents=True, exist_ok=True)
 
     await log_message(f"Starting {len(selected_files)} downloads into {base_dir.as_posix()}")
 
-    # 4. 初始化 ClientSession，设置并发限制
     async with aiohttp.ClientSession() as session:
         semaphore = asyncio.Semaphore(max_concurrent_downloads)
 
@@ -405,7 +405,7 @@ async def process_download_job(
         return success_count == len(selected_files)
 
 
-# --- 核心逻辑：批量下载作品 (新功能：顺序下载作品) ---
+# --- 核心逻辑：批量下载作品 (顺序下载作品) ---
 
 async def process_bulk_download_job(
         rj_ids: List[str],
@@ -414,8 +414,6 @@ async def process_bulk_download_job(
     """
     主逻辑：批量下载指定 RJ ID 列表中的作品。
     作品按顺序下载，每个作品内的文件并发下载。
-    overall_progress_callback: (current_work_index, total_works, status_message)
-    返回 (是否全部成功, 状态信息)
     """
     total_works = len(rj_ids)
 
@@ -487,7 +485,7 @@ async def process_bulk_download_job(
     return success_count == total_works, final_message
 
 
-# --- 新功能：关键词搜索 (保持不变) ---
+# --- 新功能：关键词搜索 ---
 
 async def search_work_async(keyword: str, page: int = 1, size: int = 20) -> Tuple[List[Dict[str, Any]], int]:
     """
@@ -497,8 +495,6 @@ async def search_work_async(keyword: str, page: int = 1, size: int = 20) -> Tupl
     await log_message(f"Searching for '{keyword}' on page {page}, size {size}")
 
     try:
-        nsfw = True
-
         keyword_encoded = keyword.strip().replace("/", "%20")
 
         async with aiohttp.ClientSession() as session:

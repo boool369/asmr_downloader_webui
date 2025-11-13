@@ -1,0 +1,902 @@
+[2025-11-13T12:14:24.226823] Handling search for '性处理' on page 1, size 5
+[2025-11-13T12:14:24.227519] Searching for '性处理' on page 1, size 5
+[2025-11-13T12:14:24.761888] API https://api.asmr.one request failed for /api/search/性处理: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:14:26.115764] API https://api.asmr-100.com request failed for /api/search/性处理: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:14:38.078072] Starting bulk download for 20 works: ['RJ1348345', 'RJ1201784', 'RJ1242298', 'RJ321157', 'RJ380583']...
+[2025-11-13T12:14:38.078577] Fetching info for RJ1348345...
+[2025-11-13T12:14:39.662085] Processing download job for RJ1348345, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
+[2025-11-13T12:14:39.662648] Fetching info for RJ1348345...
+[2025-11-13T12:14:40.553966] Starting 35 downloads into C:/ASMR/RJ1348345
+[2025-11-13T12:14:41.106078] Starting download: 3.jpg (Total size 1.06 MB)
+[2025-11-13T12:14:41.270826] Starting download: 2.jpg (Total size 1.11 MB)
+[2025-11-13T12:14:41.293291] Starting download: 1.jpg (Total size 955.91 KB)
+[2025-11-13T12:14:41.844632] Download successful: 3.jpg
+[2025-11-13T12:14:42.097098] Starting download: 4.jpg (Total size 802.10 KB)
+[2025-11-13T12:14:42.340135] Download successful: 2.jpg
+[2025-11-13T12:14:42.366176] Download successful: 4.jpg
+[2025-11-13T12:14:42.534713] Download successful: 1.jpg
+[2025-11-13T12:14:42.580352] Starting download: おまけ小話２.jpg (Total size 940.00 KB)
+[2025-11-13T12:14:42.621934] Starting download: おまけ小話.jpg (Total size 1.38 MB)
+[2025-11-13T12:14:42.673086] Download successful: おまけ小話２.jpg
+[2025-11-13T12:14:42.805336] Starting download: フリートーク.wav (Total size 76.76 MB)
+[2025-11-13T12:14:42.891568] Starting download: 初期に描いたジャケット.png (Total size 4.92 MB)
+[2025-11-13T12:14:42.929424] Download successful: おまけ小話.jpg
+[2025-11-13T12:14:43.236267] Starting download: 台本.txt (Total size 42.05 KB)
+[2025-11-13T12:14:43.237851] Download successful: 台本.txt
+[2025-11-13T12:14:43.515918] Starting download: 高画質ジャケット.jpg (Total size 2.09 MB)
+[2025-11-13T12:14:43.859727] Download successful: 初期に描いたジャケット.png
+[2025-11-13T12:14:43.991374] Download successful: 高画質ジャケット.jpg
+[2025-11-13T12:14:44.099951] Starting download: 高画質ジャケットロゴなし.jpg (Total size 2.12 MB)
+[2025-11-13T12:14:44.367787] Starting download: 1.禁術の◯眠魔法で将軍を籠絡.mp3 (Total size 10.01 MB)
+[2025-11-13T12:14:45.743107] Download successful: 高画質ジャケットロゴなし.jpg
+[2025-11-13T12:14:46.092011] Starting download: 2.罪人の性処理を仕事と思い込ませる.mp3 (Total size 16.00 MB)
+[2025-11-13T12:14:46.519861] Download successful: 1.禁術の◯眠魔法で将軍を籠絡.mp3
+[2025-11-13T12:14:47.094570] Starting download: 3.部下に成り代わり、イヤそうに使わせてもらう.mp3 (Total size 19.67 MB)
+[2025-11-13T12:14:49.635660] Download successful: 2.罪人の性処理を仕事と思い込ませる.mp3
+[2025-11-13T12:14:49.997391] Starting download: 4.上司と思い込ませ、無知シチュ調教.mp3 (Total size 18.07 MB)
+[2025-11-13T12:14:51.847551] Download successful: 3.部下に成り代わり、イヤそうに使わせてもらう.mp3
+[2025-11-13T12:14:52.000170] Download successful: フリートーク.wav
+[2025-11-13T12:14:52.345887] Starting download: 5.誇りを持たせ、すすんで性処理させる.mp3 (Total size 25.25 MB)
+[2025-11-13T12:14:52.506876] Starting download: 6.お前のチンポのために生きよう.mp3 (Total size 19.13 MB)
+[2025-11-13T12:14:54.264691] Download successful: 4.上司と思い込ませ、無知シチュ調教.mp3
+[2025-11-13T12:14:54.825765] Starting download: 1.禁術の◯眠魔法で将軍を籠絡.mp3 (Total size 9.53 MB)
+[2025-11-13T12:14:55.895072] Download successful: 6.お前のチンポのために生きよう.mp3
+[2025-11-13T12:14:56.480211] Starting download: 2.罪人の性処理を仕事と思い込ませる.mp3 (Total size 13.99 MB)
+[2025-11-13T12:14:56.565495] Download successful: 5.誇りを持たせ、すすんで性処理させる.mp3
+[2025-11-13T12:14:56.725837] Download successful: 1.禁術の◯眠魔法で将軍を籠絡.mp3
+[2025-11-13T12:14:57.150327] Starting download: 3.部下に成り代わり、イヤそうに使わせてもらう.mp3 (Total size 18.54 MB)
+[2025-11-13T12:14:57.452831] Starting download: 4.上司と思い込ませ、無知シチュ調教.mp3 (Total size 16.80 MB)
+[2025-11-13T12:14:57.860406] Download successful: 2.罪人の性処理を仕事と思い込ませる.mp3
+[2025-11-13T12:14:58.156870] Starting download: 5.誇りを持たせ、すすんで性処理させる.mp3 (Total size 20.97 MB)
+[2025-11-13T12:14:59.721243] Download successful: 3.部下に成り代わり、イヤそうに使わせてもらう.mp3
+[2025-11-13T12:15:00.282029] Starting download: 6.お前のチンポのために生きよう.mp3 (Total size 17.94 MB)
+[2025-11-13T12:15:00.555742] Download successful: 4.上司と思い込ませ、無知シチュ調教.mp3
+[2025-11-13T12:15:00.565583] Download successful: 5.誇りを持たせ、すすんで性処理させる.mp3
+[2025-11-13T12:15:00.786406] Starting download: 1.禁術の◯眠魔法で将軍を籠絡.wav (Total size 132.20 MB)
+[2025-11-13T12:15:01.056306] Starting download: 2.罪人の性処理を仕事と思い込ませる.wav (Total size 182.83 MB)
+[2025-11-13T12:15:03.183517] Download successful: 6.お前のチンポのために生きよう.mp3
+[2025-11-13T12:15:03.530868] Starting download: 3.部下に成り代わり、イヤそうに使わせてもらう.wav (Total size 220.53 MB)
+[2025-11-13T12:15:21.309709] Download successful: 3.部下に成り代わり、イヤそうに使わせてもらう.wav
+[2025-11-13T12:15:21.589676] Starting download: 4.上司と思い込ませ、無知シチュ調教.wav (Total size 201.58 MB)
+[2025-11-13T12:15:36.861202] Download successful: 4.上司と思い込ませ、無知シチュ調教.wav
+[2025-11-13T12:15:37.125479] Starting download: 5.誇りを持たせ、すすんで性処理させる.wav (Total size 271.60 MB)
+[2025-11-13T12:15:50.373543] Download successful: 1.禁術の◯眠魔法で将軍を籠絡.wav
+[2025-11-13T12:15:50.655030] Starting download: 6.お前のチンポのために生きよう.wav (Total size 224.10 MB)
+[2025-11-13T12:16:04.827958] Download successful: 5.誇りを持たせ、すすんで性処理させる.wav
+[2025-11-13T12:16:05.337630] Starting download: 1.禁術の◯眠魔法で将軍を籠絡.wav (Total size 132.20 MB)
+[2025-11-13T12:16:07.317006] Download successful: 2.罪人の性処理を仕事と思い込ませる.wav
+[2025-11-13T12:16:07.873444] Starting download: 2.罪人の性処理を仕事と思い込ませる.wav (Total size 182.83 MB)
+[2025-11-13T12:16:15.260414] Download successful: 1.禁術の◯眠魔法で将軍を籠絡.wav
+[2025-11-13T12:16:15.894530] Starting download: 3.部下に成り代わり、イヤそうに使わせてもらう.wav (Total size 220.53 MB)
+[2025-11-13T12:16:44.008784] Download successful: 3.部下に成り代わり、イヤそうに使わせてもらう.wav
+[2025-11-13T12:16:44.740879] Starting download: 4.上司と思い込ませ、無知シチュ調教.wav (Total size 201.58 MB)
+[2025-11-13T12:16:48.360465] Download successful: 6.お前のチンポのために生きよう.wav
+[2025-11-13T12:16:49.020320] Starting download: 5.誇りを持たせ、すすんで性処理させる.wav (Total size 271.60 MB)
+[2025-11-13T12:16:50.503413] Download successful: 2.罪人の性処理を仕事と思い込ませる.wav
+[2025-11-13T12:16:51.096605] Starting download: 6.お前のチンポのために生きよう.wav (Total size 224.10 MB)
+[2025-11-13T12:17:25.215017] Download successful: 4.上司と思い込ませ、無知シチュ調教.wav
+[2025-11-13T12:17:27.741032] Download successful: 6.お前のチンポのために生きよう.wav
+[2025-11-13T12:17:57.342158] Handling search for '五' on page 1, size 5
+[2025-11-13T12:17:57.342703] Searching for '五' on page 1, size 5
+[2025-11-13T12:17:57.888469] API https://api.asmr.one request failed for /api/search/五: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:17:59.436284] API https://api.asmr-100.com request failed for /api/search/五: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:18:05.326067] Starting bulk download for 20 works: ['RJ343328', 'RJ1296282', 'RJ338799', 'RJ1058871', 'RJ311239']...
+[2025-11-13T12:18:05.326608] Fetching info for RJ343328...
+[2025-11-13T12:18:06.902947] Processing download job for RJ343328, indices: [1, 2, 3, 4, 5, 6]
+[2025-11-13T12:18:06.903496] Fetching info for RJ343328...
+[2025-11-13T12:18:07.792275] Starting 6 downloads into C:/ASMR/RJ343328
+[2025-11-13T12:18:08.465826] Starting download: track2_お茶とお菓子と将棋と.mp3 (Total size 24.15 MB)
+[2025-11-13T12:18:08.472435] Starting download: track1_五十鈴との出会い.mp3 (Total size 12.35 MB)
+[2025-11-13T12:18:08.507883] Starting download: track3_尻尾わしゃわしゃモフモフ耳かき.mp3 (Total size 32.50 MB)
+[2025-11-13T12:18:11.159800] Download successful: track1_五十鈴との出会い.mp3
+[2025-11-13T12:18:12.356330] Starting download: track1_五十鈴との出会い.wav (Total size 88.89 MB)
+[2025-11-13T12:18:19.854349] Download successful: track1_五十鈴との出会い.wav
+[2025-11-13T12:18:20.463131] Starting download: track2_お茶とお菓子と将棋と.wav (Total size 173.83 MB)
+[2025-11-13T12:18:22.037142] Download successful: track3_尻尾わしゃわしゃモフモフ耳かき.mp3
+[2025-11-13T12:18:23.066455] Starting download: track3_尻尾わしゃわしゃモフモフ耳かき.wav (Total size 233.99 MB)
+[2025-11-13T12:18:25.832585] Download successful: track2_お茶とお菓子と将棋と.mp3
+[2025-11-13T12:18:37.507881] Download successful: track2_お茶とお菓子と将棋と.wav
+[2025-11-13T12:18:57.551473] Download successful: track3_尻尾わしゃわしゃモフモフ耳かき.wav
+[2025-11-13T12:18:57.551787] Download summary for RJ343328: 6/6 succeeded.
+[2025-11-13T12:18:58.559267] Fetching info for RJ1296282...
+[2025-11-13T12:19:00.666231] Processing download job for RJ1296282, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
+[2025-11-13T12:19:00.666624] Fetching info for RJ1296282...
+[2025-11-13T12:19:02.714032] Starting 74 downloads into C:/ASMR/RJ1296282
+[2025-11-13T12:19:03.285727] Starting download: 01_usm_v2_DAY01_プロローグ／カフェ／トーク.mp3 (Total size 55.56 MB)
+[2025-11-13T12:19:03.436910] Starting download: 03_usm_v2_DAY02_02_前半戦→簡易マッサージ／ウサを目隠し／ウサ乳首を責める／手マン／ゴムあり挿入／正常位／騎乗位／潮吹き／絶頂.mp3 (Total size 63.55 MB)
+[2025-11-13T12:19:03.447952] Starting download: 02_usm_v2_DAY02_01_プロローグ／キス／会話.mp3 (Total size 38.13 MB)
+[2025-11-13T12:19:09.079754] Download successful: 01_usm_v2_DAY01_プロローグ／カフェ／トーク.mp3
+[2025-11-13T12:19:09.324576] Starting download: 04_usm_v2_DAY02_03後半戦→生挿入／正常位／囁き／耳舐め／キス／ベロチュー中出し／追いピストン／連続絶頂.mp3 (Total size 49.56 MB)
+[2025-11-13T12:19:15.070912] Download successful: 02_usm_v2_DAY02_01_プロローグ／キス／会話.mp3
+[2025-11-13T12:19:15.130025] Download successful: 04_usm_v2_DAY02_03後半戦→生挿入／正常位／囁き／耳舐め／キス／ベロチュー中出し／追いピストン／連続絶頂.mp3
+[2025-11-13T12:19:15.341979] Starting download: 06_usm_v2_DAY03_02_前半戦→正常位／生挿入／キス／騎乗位／お互い乳首責め／エッグ手マン＆ピストン／囁き／潮吹き／絶頂／囁き／耳舐め.mp3 (Total size 37.17 MB)
+[2025-11-13T12:19:15.343466] Starting download: 05_usm_v2_DAY03_01_プロローグ／囁き／キス／手マン／エッグ手マン／絶頂.mp3 (Total size 44.21 MB)
+[2025-11-13T12:19:20.628415] Download successful: 06_usm_v2_DAY03_02_前半戦→正常位／生挿入／キス／騎乗位／お互い乳首責め／エッグ手マン＆ピストン／囁き／潮吹き／絶頂／囁き／耳舐め.mp3
+[2025-11-13T12:19:20.867345] Starting download: 07_usm_v2_DAY03_03_後半戦→寝バック／潮吹き／絶頂／正常位／ウサのエッグオナニー／キス／囁き／耳舐め／ベロチュー中出し／エッグオナニー／深イキ.mp3 (Total size 59.98 MB)
+[2025-11-13T12:19:23.643132] Download successful: 05_usm_v2_DAY03_01_プロローグ／囁き／キス／手マン／エッグ手マン／絶頂.mp3
+[2025-11-13T12:19:23.886354] Starting download: 08_usm_v2_DAY04_勉強通話.mp3 (Total size 98.61 MB)
+[2025-11-13T12:19:29.418716] Download successful: 07_usm_v2_DAY03_03_後半戦→寝バック／潮吹き／絶頂／正常位／ウサのエッグオナニー／キス／囁き／耳舐め／ベロチュー中出し／エッグオナニー／深イキ.mp3
+[2025-11-13T12:19:29.629976] Starting download: 09_usm_v2_DAY05_01_プロローグ／キス／ウサを目隠し／フェラ／手マン／エッグ手マン／絶頂.mp3 (Total size 52.05 MB)
+[2025-11-13T12:19:52.868377] Handling search for '催眠' on page 1, size 3
+[2025-11-13T12:19:52.868861] Searching for '催眠' on page 1, size 3
+[2025-11-13T12:19:53.362757] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:19:55.022759] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:19:56.907892] API https://api.asmr-200.com returned status 400 for /api/search/催眠
+[2025-11-13T12:19:57.052009] API https://api.asmr-300.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-300.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:19:58.057397] All API attempts failed for /api/search/催眠.
+[2025-11-13T12:20:12.292784] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:20:12.293206] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:20:12.646267] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:20:14.025910] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:20:16.055042] API https://api.asmr-200.com returned status 400 for /api/search/催眠
+[2025-11-13T12:20:16.211166] API https://api.asmr-300.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-300.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:20:17.222023] All API attempts failed for /api/search/催眠.
+[2025-11-13T12:21:57.293151] Handling search for '催眠' on page 1, size 20
+[2025-11-13T12:21:57.293663] Searching for '催眠' on page 1, size 20
+[2025-11-13T12:21:57.786378] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:21:59.121685] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:22:05.023695] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:22:05.024425] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:43:13.896107] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:43:13.896695] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:43:14.525544] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:43:16.015087] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:45:12.761913] Handling search for '姐姐' on page 1, size 10
+[2025-11-13T12:45:12.762382] Searching for '姐姐' on page 1, size 10
+[2025-11-13T12:45:13.627412] API https://api.asmr.one request failed for /api/search/姐姐: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:45:14.971660] API https://api.asmr-100.com request failed for /api/search/姐姐: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:45:36.209051] Handling search for '姐姐' on page 1, size 30
+[2025-11-13T12:45:36.209743] Searching for '姐姐' on page 1, size 30
+[2025-11-13T12:47:53.740828] Handling search for '催眠' on page 1, size 20
+[2025-11-13T12:47:53.741279] Searching for '催眠' on page 1, size 20
+[2025-11-13T12:47:55.274791] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:47:56.634734] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:48:03.059976] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:48:03.060508] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:48:07.757917] Fetching info for RJ214512...
+[2025-11-13T12:50:41.275095] Handling search for '催眠' on page 1, size 20
+[2025-11-13T12:50:41.275585] Searching for '催眠' on page 1, size 20
+[2025-11-13T12:50:42.220477] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:50:43.985102] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:50:47.030977] Handling search for '催眠' on page 1, size 20
+[2025-11-13T12:50:47.031455] Searching for '催眠' on page 1, size 20
+[2025-11-13T12:50:48.212747] Handling search for '催眠' on page 1, size 20
+[2025-11-13T12:50:48.213439] Searching for '催眠' on page 1, size 20
+[2025-11-13T12:51:19.552650] Handling search for '催眠' on page 2, size 10
+[2025-11-13T12:51:19.553163] Searching for '催眠' on page 2, size 10
+[2025-11-13T12:51:26.430604] Handling search for '催眠' on page 3, size 10
+[2025-11-13T12:51:26.431157] Searching for '催眠' on page 3, size 10
+[2025-11-13T12:51:46.653329] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:51:46.653918] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:52:23.083253] Handling search for '催眠' on page 1, size 20
+[2025-11-13T12:52:23.083688] Searching for '催眠' on page 1, size 20
+[2025-11-13T12:52:24.442275] Handling search for '催眠' on page 1, size 20
+[2025-11-13T12:52:24.442669] Searching for '催眠' on page 1, size 20
+[2025-11-13T12:52:25.909969] Handling search for '催眠' on page 1, size 20
+[2025-11-13T12:52:25.910385] Searching for '催眠' on page 1, size 20
+[2025-11-13T12:52:40.637487] Handling search for '催眠' on page 5, size 10
+[2025-11-13T12:52:40.637971] Searching for '催眠' on page 5, size 10
+[2025-11-13T12:54:55.298133] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:54:55.298763] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:54:56.558909] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:54:58.354897] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:54:59.817649] API https://api.asmr-200.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:55:04.015717] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:55:04.016299] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:56:07.153621] Handling search for '催眠' on page 1, size 30
+[2025-11-13T12:56:07.154116] Searching for '催眠' on page 1, size 30
+[2025-11-13T12:56:15.308605] Handling search for '催眠' on page 1, size 50
+[2025-11-13T12:56:15.309182] Searching for '催眠' on page 1, size 50
+[2025-11-13T12:56:21.842842] Handling search for '催眠' on page 1, size 50
+[2025-11-13T12:56:21.843333] Searching for '催眠' on page 1, size 50
+[2025-11-13T12:57:11.438403] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:57:11.438959] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:57:12.002271] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:57:13.803091] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:57:19.530555] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:57:19.531110] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:58:28.473717] Fetching info for RJ407938...
+[2025-11-13T12:58:38.159469] Fetching info for RJ74283...
+[2025-11-13T12:58:40.899016] Fetching info for RJ321818...
+[2025-11-13T12:58:47.235212] Processing download job for RJ321818, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+[2025-11-13T12:58:47.235663] Fetching info for RJ321818...
+[2025-11-13T12:58:49.954898] Starting 43 downloads into C:/ASMR/RJ321818
+[2025-11-13T12:58:50.701632] Starting download: SOKUOCHI_005_Artwork_2400.png (Total size 3.68 MB)
+[2025-11-13T12:58:50.728134] Starting download: SOKUOCHI_005_package_2440.png (Total size 4.90 MB)
+[2025-11-13T12:58:50.735838] Starting download: SOKUOCHI_005_characterDesign_1980.png (Total size 1.12 MB)
+[2025-11-13T12:58:52.204837] Download successful: SOKUOCHI_005_characterDesign_1980.png
+[2025-11-13T12:58:52.676494] Starting download: SOKUOCHI_005_Photo001_2440.png (Total size 3.01 MB)
+[2025-11-13T12:58:53.620097] Download successful: SOKUOCHI_005_Photo001_2440.png
+[2025-11-13T12:58:54.176597] Starting download: SOKUOCHI_005_Photo002_2440.png (Total size 2.73 MB)
+[2025-11-13T12:58:54.859705] Download successful: SOKUOCHI_005_package_2440.png
+[2025-11-13T12:58:55.117062] Download successful: SOKUOCHI_005_Photo002_2440.png
+[2025-11-13T12:58:55.147612] Starting download: SOKUOCHI_005_wllppr.png (Total size 3.15 MB)
+[2025-11-13T12:58:55.422461] Starting download: 即おちCG_natsu_DAY01_track01_nonSE.mp3 (Total size 20.85 MB)
+[2025-11-13T12:58:56.271839] Download successful: SOKUOCHI_005_wllppr.png
+[2025-11-13T12:58:56.428988] Download successful: SOKUOCHI_005_Artwork_2400.png
+[2025-11-13T12:58:56.736162] Starting download: 即おちCG_natsu_DAY02_track03_nonSE.mp3 (Total size 190.34 MB)
+[2025-11-13T12:58:56.963595] Starting download: 即おちCG_natsu_DAY01_track02_nonSE.mp3 (Total size 198.35 MB)
+[2025-11-13T12:58:59.659927] Download successful: 即おちCG_natsu_DAY01_track01_nonSE.mp3
+[2025-11-13T12:59:00.075106] Starting download: 即おちCG_natsu_DAY03_track04_nonSE.mp3 (Total size 160.85 MB)
+[2025-11-13T12:59:24.781455] Download successful: 即おちCG_natsu_DAY03_track04_nonSE.mp3
+[2025-11-13T12:59:25.315604] Starting download: 即おちCG_natsu_SeveralMTHSLater_track05_nonSE.mp3 (Total size 12.00 MB)
+[2025-11-13T12:59:27.572473] Download successful: 即おちCG_natsu_SeveralMTHSLater_track05_nonSE.mp3
+[2025-11-13T12:59:27.833836] Starting download: 即おちCG_natsu_DAY01_track01_Voice+指.mp3 (Total size 20.85 MB)
+[2025-11-13T12:59:31.815006] Download successful: 即おちCG_natsu_DAY01_track01_Voice+指.mp3
+[2025-11-13T12:59:32.078436] Starting download: 即おちCG_natsu_DAY01_track02_Voice+指.mp3 (Total size 198.35 MB)
+[2025-11-13T12:59:52.865560] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:59:52.866045] Searching for '催眠' on page 1, size 10
+[2025-11-13T12:59:53.629226] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:59:55.196268] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T12:59:57.561144] Handling search for '催眠' on page 1, size 10
+[2025-11-13T12:59:57.562244] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:00:12.540192] Handling search for '催眠' on page 2, size 10
+[2025-11-13T13:00:12.540689] Searching for '催眠' on page 2, size 10
+[2025-11-13T13:00:30.153031] Handling search for '催眠' on page 3, size 10
+[2025-11-13T13:00:30.153695] Searching for '催眠' on page 3, size 10
+[2025-11-13T13:00:30.607803] API https://api.asmr-200.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:00:32.082602] API https://api.asmr-300.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-300.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:00:33.446344] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:00:34.814873] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:00:35.817370] All API attempts failed for /api/search/催眠.
+[2025-11-13T13:00:35.911434] Handling search for '催眠' on page 1, size 10
+[2025-11-13T13:00:35.911854] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:00:36.349977] API https://api.asmr-200.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:04:19.579376] Handling search for '催眠' on page 1, size 10
+[2025-11-13T13:04:19.579871] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:04:20.615469] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:04:22.823505] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:04:25.879065] Handling search for '催眠' on page 1, size 10
+[2025-11-13T13:04:25.879696] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:04:40.520949] Handling search for '催眠' on page 2, size 10
+[2025-11-13T13:04:40.521667] Searching for '催眠' on page 2, size 10
+[2025-11-13T13:06:36.290435] Handling search for '催眠' on page 1, size 10
+[2025-11-13T13:06:36.291121] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:06:37.173144] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:06:39.516981] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:06:41.936156] Handling search for '催眠' on page 1, size 10
+[2025-11-13T13:06:41.936774] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:06:51.378442] Handling search for '催眠' on page 1, size 50
+[2025-11-13T13:06:51.379035] Searching for '催眠' on page 1, size 50
+[2025-11-13T13:08:25.102577] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='20'
+[2025-11-13T13:08:25.103040] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=20
+[2025-11-13T13:08:25.103477] Searching for '催眠' on page 1, size 20
+[2025-11-13T13:08:25.940503] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:08:27.291214] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:08:29.472748] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 20 个结果, 总页数 177
+[2025-11-13T13:08:29.473393] [TRIGGER_SEARCH - 输出] 表格将显示 20 行数据。
+[2025-11-13T13:09:54.742752] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='10'
+[2025-11-13T13:09:54.743253] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=10
+[2025-11-13T13:09:54.743532] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:09:54.893865] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:09:56.336149] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:09:59.770894] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 20 个结果, 总页数 353
+[2025-11-13T13:09:59.771496] [TRIGGER_SEARCH - 输出] 表格将显示 20 行数据。
+[2025-11-13T13:09:59.933964] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='10'
+[2025-11-13T13:09:59.934595] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=10
+[2025-11-13T13:09:59.935019] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:10:01.651571] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 20 个结果, 总页数 353
+[2025-11-13T13:10:01.651965] [TRIGGER_SEARCH - 输出] 表格将显示 20 行数据。
+[2025-11-13T13:11:03.776112] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='10'
+[2025-11-13T13:11:03.776672] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=10
+[2025-11-13T13:11:03.777021] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:11:05.277036] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 20 个结果, 总页数 353
+[2025-11-13T13:11:05.277573] [TRIGGER_SEARCH - 输出] 表格将显示 20 行数据。
+[2025-11-13T13:11:33.016579] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='10'
+[2025-11-13T13:11:33.017088] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=10
+[2025-11-13T13:11:33.017378] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:11:34.070910] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 20 个结果, 总页数 353
+[2025-11-13T13:11:34.071320] [TRIGGER_SEARCH - 输出] 表格将显示 20 行数据。
+[2025-11-13T13:11:34.191624] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='10'
+[2025-11-13T13:11:34.192147] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=10
+[2025-11-13T13:11:34.192465] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:11:35.246955] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 20 个结果, 总页数 353
+[2025-11-13T13:11:35.247353] [TRIGGER_SEARCH - 输出] 表格将显示 20 行数据。
+[2025-11-13T13:12:22.220127] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='10'
+[2025-11-13T13:12:22.220688] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=10
+[2025-11-13T13:12:22.221132] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:12:22.921124] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:12:25.049728] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:12:27.335355] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 20 个结果, 总页数 353
+[2025-11-13T13:12:27.335899] [TRIGGER_SEARCH - 输出] 表格将显示 20 行数据。
+[2025-11-13T13:12:27.428864] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='10'
+[2025-11-13T13:12:27.429385] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=10
+[2025-11-13T13:12:27.429898] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:12:27.876249] API https://api.asmr-200.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:12:30.123486] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 20 个结果, 总页数 353
+[2025-11-13T13:12:30.123988] [TRIGGER_SEARCH - 输出] 表格将显示 20 行数据。
+[2025-11-13T13:13:57.403286] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='10'
+[2025-11-13T13:13:57.403924] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=10
+[2025-11-13T13:13:58.935997] [search_work_async] 计算总数: 3526, 采用有效 size: 10, 总页数: 353
+[2025-11-13T13:13:58.936396] [search_work_async] 结果列表已截断至请求的 size: 10。
+[2025-11-13T13:13:58.937006] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 10 个结果, 总页数 353
+[2025-11-13T13:13:58.937368] [TRIGGER_SEARCH - 输出] 表格将显示 10 行数据。
+[2025-11-13T13:13:59.018774] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='1', size_str='10'
+[2025-11-13T13:13:59.019379] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=1, size_num=10
+[2025-11-13T13:14:00.875705] [search_work_async] 计算总数: 3526, 采用有效 size: 10, 总页数: 353
+[2025-11-13T13:14:00.876280] [search_work_async] 结果列表已截断至请求的 size: 10。
+[2025-11-13T13:14:00.877224] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 10 个结果, 总页数 353
+[2025-11-13T13:14:00.877501] [TRIGGER_SEARCH - 输出] 表格将显示 10 行数据。
+[2025-11-13T13:14:07.635311] [TRIGGER_SEARCH - 输入] 接收原始输入: keyword='催眠', page_str='2', size_str='10'
+[2025-11-13T13:14:07.636363] [TRIGGER_SEARCH - API] 准备调用 API: keyword='催眠', page_num=2, size_num=10
+[2025-11-13T13:14:08.850863] [search_work_async] 计算总数: 3526, 采用有效 size: 10, 总页数: 353
+[2025-11-13T13:14:08.851230] [search_work_async] 结果列表已截断至请求的 size: 10。
+[2025-11-13T13:14:08.851835] [TRIGGER_SEARCH - 结果] API 调用成功: 返回 10 个结果, 总页数 353
+[2025-11-13T13:14:08.852097] [TRIGGER_SEARCH - 输出] 表格将显示 10 行数据。
+[2025-11-13T13:17:49.238548] Searching for '催眠' on page 1, size 5
+[2025-11-13T13:17:50.198802] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:17:50.199264] [ASMR API] Switching to API: https://api.asmr-100.com
+[2025-11-13T13:17:51.762424] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:17:51.763004] [ASMR API] Switching to API: https://api.asmr-200.com
+[2025-11-13T13:19:36.213861] Searching for '催眠' on page 1, size 20
+[2025-11-13T13:19:36.744352] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:19:36.744771] [ASMR API] Switching to API: https://api.asmr-100.com
+[2025-11-13T13:19:38.273550] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:19:38.274070] [ASMR API] Switching to API: https://api.asmr-200.com
+[2025-11-13T13:21:16.442705] Searching for '催眠' on page 1, size 6
+[2025-11-13T13:21:25.246412] Starting bulk download for 6 works: ['RJ1016904', 'RJ256636', 'RJ51890', 'RJ1129822', 'RJ256468']...
+[2025-11-13T13:21:25.246959] Fetching info for RJ1016904...
+[2025-11-13T13:21:26.895427] Processing download job for RJ1016904, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+[2025-11-13T13:21:26.895826] Fetching info for RJ1016904...
+[2025-11-13T13:21:29.973652] Starting 23 downloads into C:/ASMR/RJ1016904
+[2025-11-13T13:21:30.553739] Starting download: 02. 常識改変耳舐め足コキ.lrc (Total size 6.88 KB)
+[2025-11-13T13:21:30.553995] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:21:30.681712] Starting download: 01. プロローグ.lrc (Total size 2.40 KB)
+[2025-11-13T13:21:30.682052] Download failed (Unknown error): 01. プロローグ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:21:30.980606] Starting download: 1_export.mp4 (Total size 15.82 MB)
+[2025-11-13T13:21:30.981171] Download failed (Unknown error): 1_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:21:31.379446] Starting download: 2_export.mp4 (Total size 57.34 MB)
+[2025-11-13T13:21:31.379851] Download failed (Unknown error): 2_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:21:31.412316] Starting download: 说明.txt (Total size 605.00 B)
+[2025-11-13T13:21:31.412559] Download failed (Unknown error): 说明.txt, name 'aiofiles' is not defined
+[2025-11-13T13:21:31.695810] Starting download: 01. プロローグ.lrc (Total size 2.40 KB)
+[2025-11-13T13:21:31.696043] Download failed (Unknown error): 01. プロローグ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:21:32.129827] Starting download: 02. 常識改変耳舐め足コキ.lrc (Total size 6.89 KB)
+[2025-11-13T13:21:32.130385] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:21:32.135950] Starting download: 说明.txt (Total size 579.00 B)
+[2025-11-13T13:21:32.136236] Download failed (Unknown error): 说明.txt, name 'aiofiles' is not defined
+[2025-11-13T13:21:32.372862] Starting download: 1_export.mp4 (Total size 15.83 MB)
+[2025-11-13T13:21:32.373254] Download failed (Unknown error): 1_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:21:32.902754] Starting download: 01. プロローグ.lrc (Total size 2.78 KB)
+[2025-11-13T13:21:32.903076] Download failed (Unknown error): 01. プロローグ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:21:32.950158] Starting download: 2_export.mp4 (Total size 57.38 MB)
+[2025-11-13T13:21:32.950515] Download failed (Unknown error): 2_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:21:33.250150] Starting download: 02. 常識改変耳舐め足コキ.lrc (Total size 7.83 KB)
+[2025-11-13T13:21:33.250454] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:21:33.337505] Starting download: 1_export.mp4 (Total size 15.75 MB)
+[2025-11-13T13:21:33.337866] Download failed (Unknown error): 1_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:21:33.913151] Starting download: 逢坂成美フリートーク.wav (Total size 31.67 MB)
+[2025-11-13T13:21:33.913578] Download failed (Unknown error): 逢坂成美フリートーク.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:33.980354] Starting download: 01. プロローグ.mp3 (Total size 10.68 MB)
+[2025-11-13T13:21:33.980723] Download failed (Unknown error): 01. プロローグ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:34.602779] Starting download: 02. 常識改変耳舐め足コキ.mp3 (Total size 37.81 MB)
+[2025-11-13T13:21:34.603154] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:34.713409] Starting download: 01. プロローグ.mp3 (Total size 10.68 MB)
+[2025-11-13T13:21:34.713773] Download failed (Unknown error): 01. プロローグ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:35.338155] Starting download: 02. 常識改変耳舐め足コキ.mp3 (Total size 37.81 MB)
+[2025-11-13T13:21:35.338886] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:35.358679] Starting download: 2_export.mp4 (Total size 57.14 MB)
+[2025-11-13T13:21:35.359219] Download failed (Unknown error): 2_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:21:35.566476] Starting download: 01. プロローグ.wav (Total size 76.90 MB)
+[2025-11-13T13:21:35.566829] Download failed (Unknown error): 01. プロローグ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:36.152704] Starting download: 01. プロローグ.wav (Total size 76.90 MB)
+[2025-11-13T13:21:36.153140] Download failed (Unknown error): 01. プロローグ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:36.258752] Starting download: 02. 常識改変耳舐め足コキ.wav (Total size 272.19 MB)
+[2025-11-13T13:21:36.259189] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:36.428296] Starting download: 02. 常識改変耳舐め足コキ.wav (Total size 272.19 MB)
+[2025-11-13T13:21:36.428903] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:36.429525] Download summary for RJ1016904: 0/23 succeeded.
+[2025-11-13T13:21:37.443194] Fetching info for RJ256636...
+[2025-11-13T13:21:39.074129] Processing download job for RJ256636, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[2025-11-13T13:21:39.074809] Fetching info for RJ256636...
+[2025-11-13T13:21:40.678033] Starting 14 downloads into C:/ASMR/RJ256636
+[2025-11-13T13:21:41.340308] Starting download: 01_催眠導入１.mp3 (Total size 33.76 MB)
+[2025-11-13T13:21:41.340721] Download failed (Unknown error): 01_催眠導入１.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:41.354432] Starting download: 02_催眠導入２.mp3 (Total size 29.17 MB)
+[2025-11-13T13:21:41.354737] Download failed (Unknown error): 02_催眠導入２.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:41.365237] Starting download: 03_ナビゲーターによる優しい前戯.mp3 (Total size 45.75 MB)
+[2025-11-13T13:21:41.365530] Download failed (Unknown error): 03_ナビゲーターによる優しい前戯.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:41.985755] Starting download: 01_催眠導入１.wav (Total size 243.08 MB)
+[2025-11-13T13:21:41.986464] Download failed (Unknown error): 01_催眠導入１.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:42.073341] Starting download: 05_催眠解除.mp3 (Total size 19.21 MB)
+[2025-11-13T13:21:42.073861] Download failed (Unknown error): 05_催眠解除.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:42.704534] Starting download: 04_ナビゲーターによる濃厚なセックス.mp3 (Total size 20.59 MB)
+[2025-11-13T13:21:42.704939] Download failed (Unknown error): 04_ナビゲーターによる濃厚なセックス.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:42.783920] Starting download: 03_ナビゲーターによる優しい前戯.wav (Total size 329.35 MB)
+[2025-11-13T13:21:42.784306] Download failed (Unknown error): 03_ナビゲーターによる優しい前戯.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:43.051572] Starting download: 02_催眠導入２.wav (Total size 209.98 MB)
+[2025-11-13T13:21:43.051969] Download failed (Unknown error): 02_催眠導入２.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:43.279194] Starting download: 04_ナビゲーターによる濃厚なセックス.wav (Total size 148.22 MB)
+[2025-11-13T13:21:43.279586] Download failed (Unknown error): 04_ナビゲーターによる濃厚なセックス.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:43.427765] Starting download: 05_催眠解除.wav (Total size 138.33 MB)
+[2025-11-13T13:21:43.428335] Download failed (Unknown error): 05_催眠解除.wav, name 'aiofiles' is not defined
+[2025-11-13T13:21:44.082966] Starting download: 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_イラスト差分.jpg (Total size 2.43 MB)
+[2025-11-13T13:21:44.083361] Download failed (Unknown error): 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_イラスト差分.jpg, name 'aiofiles' is not defined
+[2025-11-13T13:21:44.105198] Starting download: 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_イラスト.jpg (Total size 2.44 MB)
+[2025-11-13T13:21:44.105536] Download failed (Unknown error): 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_イラスト.jpg, name 'aiofiles' is not defined
+[2025-11-13T13:21:44.426748] Starting download: readme.txt (Total size 844.00 B)
+[2025-11-13T13:21:44.427107] Download failed (Unknown error): readme.txt, name 'aiofiles' is not defined
+[2025-11-13T13:21:45.019778] Starting download: 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_パッケージ.jpg (Total size 2.47 MB)
+[2025-11-13T13:21:45.020304] Download failed (Unknown error): 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_パッケージ.jpg, name 'aiofiles' is not defined
+[2025-11-13T13:21:45.020990] Download summary for RJ256636: 0/14 succeeded.
+[2025-11-13T13:21:46.025188] Fetching info for RJ51890...
+[2025-11-13T13:21:48.957105] Processing download job for RJ51890, indices: [1, 2, 3, 4, 5, 6, 7]
+[2025-11-13T13:21:48.957692] Fetching info for RJ51890...
+[2025-11-13T13:21:51.721402] Starting 7 downloads into C:/ASMR/RJ51890
+[2025-11-13T13:21:52.365640] Starting download: 壁紙サイズ？ｗ.jpg (Total size 909.34 KB)
+[2025-11-13T13:21:52.366107] Download failed (Unknown error): 壁紙サイズ？ｗ.jpg, name 'aiofiles' is not defined
+[2025-11-13T13:21:52.444932] Starting download: DLありがとうございます☆.txt (Total size 6.79 KB)
+[2025-11-13T13:21:52.445215] Download failed (Unknown error): DLありがとうございます☆.txt, name 'aiofiles' is not defined
+[2025-11-13T13:21:52.452034] Starting download: 戜杮丠.txt (Total size 45.08 KB)
+[2025-11-13T13:21:52.452241] Download failed (Unknown error): 戜杮丠.txt, name 'aiofiles' is not defined
+[2025-11-13T13:21:52.713266] Starting download: 本編9sec.mp3 (Total size 55.44 MB)
+[2025-11-13T13:21:52.713643] Download failed (Unknown error): 本編9sec.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:52.725254] Starting download: 注意事項.mp3 (Total size 2.69 MB)
+[2025-11-13T13:21:52.725579] Download failed (Unknown error): 注意事項.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:53.039381] Starting download: 本編7sec.mp3 (Total size 53.16 MB)
+[2025-11-13T13:21:53.039765] Download failed (Unknown error): 本編7sec.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:53.486798] Starting download: 追加解除.mp3 (Total size 3.64 MB)
+[2025-11-13T13:21:53.487450] Download failed (Unknown error): 追加解除.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:21:53.488100] Download summary for RJ51890: 0/7 succeeded.
+[2025-11-13T13:21:54.491861] Fetching info for RJ1129822...
+[2025-11-13T13:21:57.814979] Processing download job for RJ1129822, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+[2025-11-13T13:21:57.815572] Fetching info for RJ1129822...
+[2025-11-13T13:21:59.291511] Starting 10 downloads into C:/ASMR/RJ1129822
+[2025-11-13T13:21:59.950323] Starting download: 3．ABOUT.png (Total size 451.18 KB)
+[2025-11-13T13:21:59.950632] Download failed (Unknown error): 3．ABOUT.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:00.003223] Starting download: 1．JACKET.png (Total size 1.33 MB)
+[2025-11-13T13:22:00.003556] Download failed (Unknown error): 1．JACKET.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:00.201896] Starting download: 2．CONCEPT.png (Total size 531.58 KB)
+[2025-11-13T13:22:00.202195] Download failed (Unknown error): 2．CONCEPT.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:00.663949] Starting download: 4．CHARACTER.png (Total size 1.66 MB)
+[2025-11-13T13:22:00.664318] Download failed (Unknown error): 4．CHARACTER.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:00.935914] Starting download: 6．CHARACTER（文章なし、高画質）.png (Total size 5.35 MB)
+[2025-11-13T13:22:00.936237] Download failed (Unknown error): 6．CHARACTER（文章なし、高画質）.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:01.160866] Starting download: 5．JACKET（ロゴなし、高画質）.png (Total size 8.88 MB)
+[2025-11-13T13:22:01.161199] Download failed (Unknown error): 5．JACKET（ロゴなし、高画質）.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:01.653538] Starting download: 本編.wav (Total size 918.73 MB)
+[2025-11-13T13:22:01.653862] Download failed (Unknown error): 本編.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:01.991092] Starting download: 【無料催眠音声】沼へと誘う二人の悪女　～声と唇と舌がこじ開ける、あなたの内側にある扉～【キス・吐息・耳舐め】体験版ムービー.mp4 (Total size 162.35 MB)
+[2025-11-13T13:22:01.991421] Download failed (Unknown error): 【無料催眠音声】沼へと誘う二人の悪女　～声と唇と舌がこじ開ける、あなたの内側にある扉～【キス・吐息・耳舐め】体験版ムービー.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:22:02.314562] Starting download: ※最初に必ずお読みください.txt (Total size 4.73 KB)
+[2025-11-13T13:22:02.314969] Download failed (Unknown error): ※最初に必ずお読みください.txt, name 'aiofiles' is not defined
+[2025-11-13T13:22:02.462564] Starting download: 独立完全解除コース（無料版）.wav (Total size 256.78 MB)
+[2025-11-13T13:22:02.463104] Download failed (Unknown error): 独立完全解除コース（無料版）.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:02.463411] Download summary for RJ1129822: 0/10 succeeded.
+[2025-11-13T13:22:03.473308] Fetching info for RJ256468...
+[2025-11-13T13:22:06.320431] Processing download job for RJ256468, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+[2025-11-13T13:22:06.321002] Fetching info for RJ256468...
+[2025-11-13T13:22:07.562705] Starting 45 downloads into C:/ASMR/RJ256468
+[2025-11-13T13:22:08.172913] Starting download: 1-01 即おち！_のぞみ_track01.mp3 (Total size 64.24 MB)
+[2025-11-13T13:22:08.173241] Download failed (Unknown error): 1-01 即おち！_のぞみ_track01.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:22:08.218690] Starting download: 1-01 即おち！_のぞみ_track01.lrc (Total size 7.78 KB)
+[2025-11-13T13:22:08.218878] Download failed (Unknown error): 1-01 即おち！_のぞみ_track01.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:08.280378] Starting download: 1-02 即おち！_のぞみ_track02.lrc (Total size 10.73 KB)
+[2025-11-13T13:22:08.280548] Download failed (Unknown error): 1-02 即おち！_のぞみ_track02.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:08.449918] Starting download: 1-03 即おち！_のぞみ_track03.lrc (Total size 8.61 KB)
+[2025-11-13T13:22:08.450351] Download failed (Unknown error): 1-03 即おち！_のぞみ_track03.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:08.519655] Starting download: 1-03 即おち！_のぞみ_track03.mp3 (Total size 78.74 MB)
+[2025-11-13T13:22:08.520006] Download failed (Unknown error): 1-03 即おち！_のぞみ_track03.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:22:08.724191] Starting download: 1-02 即おち！_のぞみ_track02.mp3 (Total size 103.72 MB)
+[2025-11-13T13:22:08.724510] Download failed (Unknown error): 1-02 即おち！_のぞみ_track02.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:22:09.193249] Starting download: 2-01 即おち！_のぞみ_track01_noneSE.lrc (Total size 7.78 KB)
+[2025-11-13T13:22:09.193492] Download failed (Unknown error): 2-01 即おち！_のぞみ_track01_noneSE.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:09.271992] Starting download: 2-01 即おち！_のぞみ_track01_noneSE.mp3 (Total size 64.24 MB)
+[2025-11-13T13:22:09.272373] Download failed (Unknown error): 2-01 即おち！_のぞみ_track01_noneSE.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:22:09.344310] Starting download: 2-02 即おち！_のぞみ_track02_noneSE.lrc (Total size 10.73 KB)
+[2025-11-13T13:22:09.344699] Download failed (Unknown error): 2-02 即おち！_のぞみ_track02_noneSE.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:09.512581] Starting download: 2-02 即おち！_のぞみ_track02_noneSE.mp3 (Total size 103.72 MB)
+[2025-11-13T13:22:09.512937] Download failed (Unknown error): 2-02 即おち！_のぞみ_track02_noneSE.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:22:10.025963] Starting download: 2-03 即おち！_のぞみ_track03_noneSE.lrc (Total size 8.61 KB)
+[2025-11-13T13:22:10.026202] Download failed (Unknown error): 2-03 即おち！_のぞみ_track03_noneSE.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:10.061328] Starting download: 2-03 即おち！_のぞみ_track03_noneSE.mp3 (Total size 78.74 MB)
+[2025-11-13T13:22:10.061754] Download failed (Unknown error): 2-03 即おち！_のぞみ_track03_noneSE.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:22:10.250381] Starting download: 3-01 即おち！_のぞみ_track01_voice.lrc (Total size 7.78 KB)
+[2025-11-13T13:22:10.250619] Download failed (Unknown error): 3-01 即おち！_のぞみ_track01_voice.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:10.291207] Starting download: 3-01 即おち！_のぞみ_track01_voice.mp3 (Total size 64.24 MB)
+[2025-11-13T13:22:10.291815] Download failed (Unknown error): 3-01 即おち！_のぞみ_track01_voice.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:22:10.535639] Starting download: 3-02 即おち！_のぞみ_track02_voice.mp3 (Total size 103.72 MB)
+[2025-11-13T13:22:10.535970] Download failed (Unknown error): 3-02 即おち！_のぞみ_track02_voice.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:22:10.612701] Starting download: 3-02 即おち！_のぞみ_track02_voice.lrc (Total size 10.73 KB)
+[2025-11-13T13:22:10.613033] Download failed (Unknown error): 3-02 即おち！_のぞみ_track02_voice.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:11.036678] Starting download: 3-03 即おち！_のぞみ_track03_voice.lrc (Total size 8.61 KB)
+[2025-11-13T13:22:11.036882] Download failed (Unknown error): 3-03 即おち！_のぞみ_track03_voice.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:11.229944] Starting download: 3-03 即おち！_のぞみ_track03_voice.mp3 (Total size 78.74 MB)
+[2025-11-13T13:22:11.230244] Download failed (Unknown error): 3-03 即おち！_のぞみ_track03_voice.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:22:11.238154] Starting download: SOKUOCHI_001_Artwork.png (Total size 1.36 MB)
+[2025-11-13T13:22:11.238491] Download failed (Unknown error): SOKUOCHI_001_Artwork.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:11.326247] Starting download: SOKUOCHI_001_illust001.png (Total size 1.51 MB)
+[2025-11-13T13:22:11.326532] Download failed (Unknown error): SOKUOCHI_001_illust001.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:11.866303] Starting download: SOKUOCHI_001_illust002.png (Total size 1.87 MB)
+[2025-11-13T13:22:11.866627] Download failed (Unknown error): SOKUOCHI_001_illust002.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:11.893675] Starting download: SOKUOCHI_001_illust004_trimmed.png (Total size 788.16 KB)
+[2025-11-13T13:22:11.894124] Download failed (Unknown error): SOKUOCHI_001_illust004_trimmed.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:12.131693] Starting download: SOKUOCHI_001_illust003.png (Total size 2.06 MB)
+[2025-11-13T13:22:12.132011] Download failed (Unknown error): SOKUOCHI_001_illust003.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:12.593434] Starting download: SOKUOCHI_001_wallpaper.png (Total size 5.60 MB)
+[2025-11-13T13:22:12.593843] Download failed (Unknown error): SOKUOCHI_001_wallpaper.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:12.605691] Starting download: SOKUOCHI_001_package_1920.png (Total size 2.53 MB)
+[2025-11-13T13:22:12.605937] Download failed (Unknown error): SOKUOCHI_001_package_1920.png, name 'aiofiles' is not defined
+[2025-11-13T13:22:12.883251] Starting download: 即おち！_のぞみ_track01.lrc (Total size 7.78 KB)
+[2025-11-13T13:22:12.883561] Download failed (Unknown error): 即おち！_のぞみ_track01.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:13.303451] Starting download: 即おち！_のぞみ_track02.lrc (Total size 10.73 KB)
+[2025-11-13T13:22:13.303717] Download failed (Unknown error): 即おち！_のぞみ_track02.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:13.303915] Starting download: 即おち！_のぞみ_track01.wav (Total size 453.23 MB)
+[2025-11-13T13:22:13.304197] Download failed (Unknown error): 即おち！_のぞみ_track01.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:13.580458] Starting download: 即おち！_のぞみ_track03.lrc (Total size 8.61 KB)
+[2025-11-13T13:22:13.580868] Download failed (Unknown error): 即おち！_のぞみ_track03.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:13.881202] Starting download: 即おち！_のぞみ_track02.wav (Total size 737.92 MB)
+[2025-11-13T13:22:13.881561] Download failed (Unknown error): 即おち！_のぞみ_track02.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:14.128973] Starting download: 即おち！_のぞみ_track03.wav (Total size 557.77 MB)
+[2025-11-13T13:22:14.129388] Download failed (Unknown error): 即おち！_のぞみ_track03.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:14.532673] Starting download: 即おち！_のぞみ_track01_noneSE.wav (Total size 453.23 MB)
+[2025-11-13T13:22:14.533009] Download failed (Unknown error): 即おち！_のぞみ_track01_noneSE.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:14.571409] Starting download: 即おち！_のぞみ_track01_noneSE.lrc (Total size 7.78 KB)
+[2025-11-13T13:22:14.571729] Download failed (Unknown error): 即おち！_のぞみ_track01_noneSE.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:14.865659] Starting download: 即おち！_のぞみ_track02_noneSE.lrc (Total size 10.73 KB)
+[2025-11-13T13:22:14.866119] Download failed (Unknown error): 即おち！_のぞみ_track02_noneSE.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:15.305101] Starting download: 即おち！_のぞみ_track03_noneSE.lrc (Total size 8.61 KB)
+[2025-11-13T13:22:15.305313] Download failed (Unknown error): 即おち！_のぞみ_track03_noneSE.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:15.616881] Starting download: 即おち！_のぞみ_track01_voice.lrc (Total size 7.78 KB)
+[2025-11-13T13:22:15.617112] Download failed (Unknown error): 即おち！_のぞみ_track01_voice.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:15.793961] Starting download: 即おち！_のぞみ_track03_noneSE.wav (Total size 557.77 MB)
+[2025-11-13T13:22:15.794283] Download failed (Unknown error): 即おち！_のぞみ_track03_noneSE.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:16.021169] Starting download: 即おち！_のぞみ_track02_noneSE.wav (Total size 737.92 MB)
+[2025-11-13T13:22:16.021522] Download failed (Unknown error): 即おち！_のぞみ_track02_noneSE.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:16.316909] Starting download: 即おち！_のぞみ_track01_voice.wav (Total size 453.23 MB)
+[2025-11-13T13:22:16.317266] Download failed (Unknown error): 即おち！_のぞみ_track01_voice.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:16.499351] Starting download: 即おち！_のぞみ_track02_voice.lrc (Total size 10.73 KB)
+[2025-11-13T13:22:16.499569] Download failed (Unknown error): 即おち！_のぞみ_track02_voice.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:17.012191] Starting download: 即おち！_のぞみ_track03_voice.lrc (Total size 8.61 KB)
+[2025-11-13T13:22:17.012580] Download failed (Unknown error): 即おち！_のぞみ_track03_voice.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:22:17.033308] Starting download: 即おち！_のぞみ_track02_voice.wav (Total size 737.92 MB)
+[2025-11-13T13:22:17.033686] Download failed (Unknown error): 即おち！_のぞみ_track02_voice.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:17.304839] Starting download: read me_スマホ壁紙特典.txt (Total size 861.00 B)
+[2025-11-13T13:22:17.305095] Download failed (Unknown error): read me_スマホ壁紙特典.txt, name 'aiofiles' is not defined
+[2025-11-13T13:22:17.566486] Starting download: 即おち！_のぞみ_track03_voice.wav (Total size 557.77 MB)
+[2025-11-13T13:22:17.566855] Download failed (Unknown error): 即おち！_のぞみ_track03_voice.wav, name 'aiofiles' is not defined
+[2025-11-13T13:22:17.677923] Starting download: read me.txt (Total size 4.29 KB)
+[2025-11-13T13:22:17.678205] Download failed (Unknown error): read me.txt, name 'aiofiles' is not defined
+[2025-11-13T13:22:17.678594] Download summary for RJ256468: 0/45 succeeded.
+[2025-11-13T13:22:18.689706] Fetching info for RJ91129...
+[2025-11-13T13:22:22.313490] Processing download job for RJ91129, indices: [1, 2, 3, 4, 5, 6]
+[2025-11-13T13:22:22.314216] Fetching info for RJ91129...
+[2025-11-13T13:22:24.320439] Starting 6 downloads into C:/ASMR/RJ91129
+[2025-11-13T13:23:55.363470] Searching for '催眠' on page 1, size 3
+[2025-11-13T13:23:56.388916] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:23:56.389573] [ASMR API] Switching to API: https://api.asmr-100.com
+[2025-11-13T13:23:57.797500] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:23:57.797902] [ASMR API] Switching to API: https://api.asmr-200.com
+[2025-11-13T13:24:01.974937] Starting bulk download for 3 works: ['RJ1016904', 'RJ256636', 'RJ51890']...
+[2025-11-13T13:24:01.975419] Fetching info for RJ1016904...
+[2025-11-13T13:24:04.138274] Processing download job for RJ1016904, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+[2025-11-13T13:24:04.138759] Fetching info for RJ1016904...
+[2025-11-13T13:24:07.294551] Starting 23 downloads into C:/ASMR/RJ1016904
+[2025-11-13T13:24:07.839740] Starting download: 02. 常識改変耳舐め足コキ.lrc (Total size 6.88 KB)
+[2025-11-13T13:24:07.839992] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:24:07.983477] Starting download: 01. プロローグ.lrc (Total size 2.40 KB)
+[2025-11-13T13:24:07.983814] Download failed (Unknown error): 01. プロローグ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:24:08.020664] Starting download: 说明.txt (Total size 605.00 B)
+[2025-11-13T13:24:08.020912] Download failed (Unknown error): 说明.txt, name 'aiofiles' is not defined
+[2025-11-13T13:24:08.304479] Starting download: 01. プロローグ.lrc (Total size 2.40 KB)
+[2025-11-13T13:24:08.304885] Download failed (Unknown error): 01. プロローグ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:24:08.378406] Starting download: 1_export.mp4 (Total size 15.82 MB)
+[2025-11-13T13:24:08.378797] Download failed (Unknown error): 1_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:24:08.411899] Starting download: 2_export.mp4 (Total size 57.34 MB)
+[2025-11-13T13:24:08.412255] Download failed (Unknown error): 2_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:24:08.573144] Starting download: 02. 常識改変耳舐め足コキ.lrc (Total size 6.89 KB)
+[2025-11-13T13:24:08.573497] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:24:08.967618] Starting download: 说明.txt (Total size 579.00 B)
+[2025-11-13T13:24:08.967877] Download failed (Unknown error): 说明.txt, name 'aiofiles' is not defined
+[2025-11-13T13:24:09.219327] Starting download: 01. プロローグ.lrc (Total size 2.78 KB)
+[2025-11-13T13:24:09.219539] Download failed (Unknown error): 01. プロローグ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:24:09.402475] Starting download: 1_export.mp4 (Total size 15.83 MB)
+[2025-11-13T13:24:09.402841] Download failed (Unknown error): 1_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:24:09.468228] Starting download: 02. 常識改変耳舐め足コキ.lrc (Total size 7.83 KB)
+[2025-11-13T13:24:09.468614] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:24:09.624054] Starting download: 2_export.mp4 (Total size 57.38 MB)
+[2025-11-13T13:24:09.624410] Download failed (Unknown error): 2_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:24:10.214200] Starting download: 1_export.mp4 (Total size 15.75 MB)
+[2025-11-13T13:24:10.214588] Download failed (Unknown error): 1_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:24:10.281007] Starting download: 逢坂成美フリートーク.wav (Total size 31.67 MB)
+[2025-11-13T13:24:10.281406] Download failed (Unknown error): 逢坂成美フリートーク.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:10.836068] Starting download: 01. プロローグ.mp3 (Total size 10.68 MB)
+[2025-11-13T13:24:10.836469] Download failed (Unknown error): 01. プロローグ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:10.972096] Starting download: 2_export.mp4 (Total size 57.14 MB)
+[2025-11-13T13:24:10.972618] Download failed (Unknown error): 2_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:24:11.144286] Starting download: 02. 常識改変耳舐め足コキ.mp3 (Total size 37.81 MB)
+[2025-11-13T13:24:11.144681] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:11.553608] Starting download: 01. プロローグ.mp3 (Total size 10.68 MB)
+[2025-11-13T13:24:11.553992] Download failed (Unknown error): 01. プロローグ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:11.747769] Starting download: 02. 常識改変耳舐め足コキ.mp3 (Total size 37.81 MB)
+[2025-11-13T13:24:11.748263] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:11.818621] Starting download: 01. プロローグ.wav (Total size 76.90 MB)
+[2025-11-13T13:24:11.819016] Download failed (Unknown error): 01. プロローグ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:12.415882] Starting download: 01. プロローグ.wav (Total size 76.90 MB)
+[2025-11-13T13:24:12.416387] Download failed (Unknown error): 01. プロローグ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:12.438979] Starting download: 02. 常識改変耳舐め足コキ.wav (Total size 272.19 MB)
+[2025-11-13T13:24:12.439435] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:12.570889] Starting download: 02. 常識改変耳舐め足コキ.wav (Total size 272.19 MB)
+[2025-11-13T13:24:12.571226] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:12.571720] Download summary for RJ1016904: 0/23 succeeded.
+[2025-11-13T13:24:13.580435] Fetching info for RJ256636...
+[2025-11-13T13:24:17.745249] Processing download job for RJ256636, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+[2025-11-13T13:24:17.745695] Fetching info for RJ256636...
+[2025-11-13T13:24:18.649065] Starting 14 downloads into C:/ASMR/RJ256636
+[2025-11-13T13:24:19.233855] Starting download: 02_催眠導入２.mp3 (Total size 29.17 MB)
+[2025-11-13T13:24:19.234365] Download failed (Unknown error): 02_催眠導入２.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:19.329971] Starting download: 03_ナビゲーターによる優しい前戯.mp3 (Total size 45.75 MB)
+[2025-11-13T13:24:19.330376] Download failed (Unknown error): 03_ナビゲーターによる優しい前戯.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:19.365969] Starting download: 01_催眠導入１.mp3 (Total size 33.76 MB)
+[2025-11-13T13:24:19.366355] Download failed (Unknown error): 01_催眠導入１.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:19.794918] Starting download: 04_ナビゲーターによる濃厚なセックス.mp3 (Total size 20.59 MB)
+[2025-11-13T13:24:19.795252] Download failed (Unknown error): 04_ナビゲーターによる濃厚なセックス.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:19.954826] Starting download: 01_催眠導入１.wav (Total size 243.08 MB)
+[2025-11-13T13:24:19.955151] Download failed (Unknown error): 01_催眠導入１.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:20.027259] Starting download: 05_催眠解除.mp3 (Total size 19.21 MB)
+[2025-11-13T13:24:20.027582] Download failed (Unknown error): 05_催眠解除.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:20.475504] Starting download: 02_催眠導入２.wav (Total size 209.98 MB)
+[2025-11-13T13:24:20.475997] Download failed (Unknown error): 02_催眠導入２.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:20.616952] Starting download: 04_ナビゲーターによる濃厚なセックス.wav (Total size 148.22 MB)
+[2025-11-13T13:24:20.617332] Download failed (Unknown error): 04_ナビゲーターによる濃厚なセックス.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:20.618815] Starting download: 03_ナビゲーターによる優しい前戯.wav (Total size 329.35 MB)
+[2025-11-13T13:24:20.619082] Download failed (Unknown error): 03_ナビゲーターによる優しい前戯.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:21.117498] Starting download: 05_催眠解除.wav (Total size 138.33 MB)
+[2025-11-13T13:24:21.117834] Download failed (Unknown error): 05_催眠解除.wav, name 'aiofiles' is not defined
+[2025-11-13T13:24:21.199512] Starting download: 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_イラスト.jpg (Total size 2.44 MB)
+[2025-11-13T13:24:21.199870] Download failed (Unknown error): 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_イラスト.jpg, name 'aiofiles' is not defined
+[2025-11-13T13:24:21.276635] Starting download: readme.txt (Total size 844.00 B)
+[2025-11-13T13:24:21.276846] Download failed (Unknown error): readme.txt, name 'aiofiles' is not defined
+[2025-11-13T13:24:21.766698] Starting download: 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_イラスト差分.jpg (Total size 2.43 MB)
+[2025-11-13T13:24:21.767052] Download failed (Unknown error): 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_イラスト差分.jpg, name 'aiofiles' is not defined
+[2025-11-13T13:24:21.782605] Starting download: 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_パッケージ.jpg (Total size 2.47 MB)
+[2025-11-13T13:24:21.782968] Download failed (Unknown error): 脳内Trance-白目を剥くほど気持ちいい音のドラッグ_パッケージ.jpg, name 'aiofiles' is not defined
+[2025-11-13T13:24:21.783370] Download summary for RJ256636: 0/14 succeeded.
+[2025-11-13T13:24:22.788406] Fetching info for RJ51890...
+[2025-11-13T13:24:23.656710] Processing download job for RJ51890, indices: [1, 2, 3, 4, 5, 6, 7]
+[2025-11-13T13:24:23.657080] Fetching info for RJ51890...
+[2025-11-13T13:24:24.572153] Starting 7 downloads into C:/ASMR/RJ51890
+[2025-11-13T13:24:25.259874] Starting download: 壁紙サイズ？ｗ.jpg (Total size 909.34 KB)
+[2025-11-13T13:24:25.260276] Download failed (Unknown error): 壁紙サイズ？ｗ.jpg, name 'aiofiles' is not defined
+[2025-11-13T13:24:25.275002] Starting download: DLありがとうございます☆.txt (Total size 6.79 KB)
+[2025-11-13T13:24:25.275233] Download failed (Unknown error): DLありがとうございます☆.txt, name 'aiofiles' is not defined
+[2025-11-13T13:24:25.289359] Starting download: 戜杮丠.txt (Total size 45.08 KB)
+[2025-11-13T13:24:25.289554] Download failed (Unknown error): 戜杮丠.txt, name 'aiofiles' is not defined
+[2025-11-13T13:24:25.541445] Starting download: 本編9sec.mp3 (Total size 55.44 MB)
+[2025-11-13T13:24:25.541900] Download failed (Unknown error): 本編9sec.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:25.576469] Starting download: 注意事項.mp3 (Total size 2.69 MB)
+[2025-11-13T13:24:25.576828] Download failed (Unknown error): 注意事項.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:25.932254] Starting download: 本編7sec.mp3 (Total size 53.16 MB)
+[2025-11-13T13:24:25.932605] Download failed (Unknown error): 本編7sec.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:26.155127] Starting download: 追加解除.mp3 (Total size 3.64 MB)
+[2025-11-13T13:24:26.155441] Download failed (Unknown error): 追加解除.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:24:26.155940] Download summary for RJ51890: 0/7 succeeded.
+[2025-11-13T13:24:27.170503] 批量下载完成。成功下载 0 / 3 个作品。
+[2025-11-13T13:26:32.197195] Searching for '催眠' on page 1, size 3
+[2025-11-13T13:26:33.264277] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:26:33.264919] [ASMR API] Switching to API: https://api.asmr-100.com
+[2025-11-13T13:26:35.043418] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:26:35.043967] [ASMR API] Switching to API: https://api.asmr-200.com
+[2025-11-13T13:26:43.756265] Starting bulk download for 3 works: ['RJ1016904', 'RJ256636', 'RJ51890']...
+[2025-11-13T13:26:43.756866] Fetching info for RJ1016904...
+[2025-11-13T13:26:46.835694] Processing download job for RJ1016904, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+[2025-11-13T13:26:46.836136] Fetching info for RJ1016904...
+[2025-11-13T13:26:50.581935] Starting 23 downloads into C:/ASMR/RJ1016904
+[2025-11-13T13:26:51.219257] Starting download: 01. プロローグ.lrc (Total size 2.40 KB)
+[2025-11-13T13:26:51.219690] Download failed (Unknown error): 01. プロローグ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:26:51.246144] Starting download: 02. 常識改変耳舐め足コキ.lrc (Total size 6.88 KB)
+[2025-11-13T13:26:51.246472] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:26:51.274323] Starting download: 说明.txt (Total size 605.00 B)
+[2025-11-13T13:26:51.274564] Download failed (Unknown error): 说明.txt, name 'aiofiles' is not defined
+[2025-11-13T13:26:51.513888] Starting download: 01. プロローグ.lrc (Total size 2.40 KB)
+[2025-11-13T13:26:51.514157] Download failed (Unknown error): 01. プロローグ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:26:51.706885] Starting download: 2_export.mp4 (Total size 57.34 MB)
+[2025-11-13T13:26:51.707375] Download failed (Unknown error): 2_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:26:51.722565] Starting download: 1_export.mp4 (Total size 15.82 MB)
+[2025-11-13T13:26:51.722897] Download failed (Unknown error): 1_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:26:51.809654] Starting download: 02. 常識改変耳舐め足コキ.lrc (Total size 6.89 KB)
+[2025-11-13T13:26:51.809905] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:26:52.434955] Starting download: 说明.txt (Total size 579.00 B)
+[2025-11-13T13:26:52.435190] Download failed (Unknown error): 说明.txt, name 'aiofiles' is not defined
+[2025-11-13T13:26:52.461167] Starting download: 2_export.mp4 (Total size 57.38 MB)
+[2025-11-13T13:26:52.461670] Download failed (Unknown error): 2_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:26:52.718554] Starting download: 01. プロローグ.lrc (Total size 2.78 KB)
+[2025-11-13T13:26:52.718811] Download failed (Unknown error): 01. プロローグ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:26:52.924057] Starting download: 1_export.mp4 (Total size 15.83 MB)
+[2025-11-13T13:26:52.924451] Download failed (Unknown error): 1_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:26:53.134270] Starting download: 02. 常識改変耳舐め足コキ.lrc (Total size 7.83 KB)
+[2025-11-13T13:26:53.134517] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.lrc, name 'aiofiles' is not defined
+[2025-11-13T13:26:53.281062] Starting download: 1_export.mp4 (Total size 15.75 MB)
+[2025-11-13T13:26:53.281531] Download failed (Unknown error): 1_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:26:53.362464] Starting download: 逢坂成美フリートーク.wav (Total size 31.67 MB)
+[2025-11-13T13:26:53.362790] Download failed (Unknown error): 逢坂成美フリートーク.wav, name 'aiofiles' is not defined
+[2025-11-13T13:26:53.963512] Starting download: 01. プロローグ.mp3 (Total size 10.68 MB)
+[2025-11-13T13:26:53.963847] Download failed (Unknown error): 01. プロローグ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:26:53.964743] Starting download: 2_export.mp4 (Total size 57.14 MB)
+[2025-11-13T13:26:53.964973] Download failed (Unknown error): 2_export.mp4, name 'aiofiles' is not defined
+[2025-11-13T13:26:54.007647] Starting download: 02. 常識改変耳舐め足コキ.mp3 (Total size 37.81 MB)
+[2025-11-13T13:26:54.007973] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:26:54.494853] Starting download: 01. プロローグ.mp3 (Total size 10.68 MB)
+[2025-11-13T13:26:54.495333] Download failed (Unknown error): 01. プロローグ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:26:54.696257] Starting download: 02. 常識改変耳舐め足コキ.mp3 (Total size 37.81 MB)
+[2025-11-13T13:26:54.696704] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:26:54.724373] Starting download: 01. プロローグ.wav (Total size 76.90 MB)
+[2025-11-13T13:26:54.724721] Download failed (Unknown error): 01. プロローグ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:26:55.186212] Starting download: 02. 常識改変耳舐め足コキ.wav (Total size 272.19 MB)
+[2025-11-13T13:26:55.186599] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:26:55.308944] Starting download: 02. 常識改変耳舐め足コキ.wav (Total size 272.19 MB)
+[2025-11-13T13:26:55.309251] Download failed (Unknown error): 02. 常識改変耳舐め足コキ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:26:55.500578] Starting download: 01. プロローグ.wav (Total size 76.90 MB)
+[2025-11-13T13:26:55.500881] Download failed (Unknown error): 01. プロローグ.wav, name 'aiofiles' is not defined
+[2025-11-13T13:26:55.501133] Download summary for RJ1016904: 0/23 succeeded.
+[2025-11-13T13:26:56.508837] Fetching info for RJ256636...
+[2025-11-13T13:26:56.945193] API https://api.asmr-200.com request failed for /api/workInfo/256636: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:26:56.945598] [ASMR API] Switching to API: https://api.asmr-300.com
+[2025-11-13T13:26:58.420023] API https://api.asmr-300.com request failed for /api/workInfo/256636: ClientConnectorError: Cannot connect to host api.asmr-300.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:26:58.420670] [ASMR API] Switching to API: https://api.asmr.one
+[2025-11-13T13:27:01.072674] API https://api.asmr.one request failed for /api/workInfo/256636: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:27:01.073114] [ASMR API] Switching to API: https://api.asmr-100.com
+[2025-11-13T13:27:02.403884] API https://api.asmr-100.com request failed for /api/workInfo/256636: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:27:02.404326] [ASMR API] Switching to API: https://api.asmr-200.com
+[2025-11-13T13:27:03.408993] All API attempts failed for /api/workInfo/256636.
+[2025-11-13T13:27:03.409615] Failed to get work info for RJ256636.
+[2025-11-13T13:27:03.410040] Skipping RJ256636 (作品信息获取失败或资源不存在。): No files found or failed to retrieve.
+[2025-11-13T13:27:03.410318] Fetching info for RJ51890...
+[2025-11-13T13:27:04.154499] API https://api.asmr-200.com request failed for /api/workInfo/51890: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:27:04.154849] [ASMR API] Switching to API: https://api.asmr-300.com
+[2025-11-13T13:27:11.974483] Processing download job for RJ51890, indices: [1, 2, 3, 4, 5, 6, 7]
+[2025-11-13T13:27:11.975025] Fetching info for RJ51890...
+[2025-11-13T13:27:14.659328] Starting 7 downloads into C:/ASMR/RJ51890
+[2025-11-13T13:27:15.320928] Starting download: 戜杮丠.txt (Total size 45.08 KB)
+[2025-11-13T13:27:15.321334] Download failed (Unknown error): 戜杮丠.txt, name 'aiofiles' is not defined
+[2025-11-13T13:27:15.357167] Starting download: 壁紙サイズ？ｗ.jpg (Total size 909.34 KB)
+[2025-11-13T13:27:15.357542] Download failed (Unknown error): 壁紙サイズ？ｗ.jpg, name 'aiofiles' is not defined
+[2025-11-13T13:27:15.368592] Starting download: DLありがとうございます☆.txt (Total size 6.79 KB)
+[2025-11-13T13:27:15.368796] Download failed (Unknown error): DLありがとうございます☆.txt, name 'aiofiles' is not defined
+[2025-11-13T13:27:15.645263] Starting download: 注意事項.mp3 (Total size 2.69 MB)
+[2025-11-13T13:27:15.645779] Download failed (Unknown error): 注意事項.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:27:15.994913] Starting download: 本編7sec.mp3 (Total size 53.16 MB)
+[2025-11-13T13:27:15.995387] Download failed (Unknown error): 本編7sec.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:27:16.012123] Starting download: 本編9sec.mp3 (Total size 55.44 MB)
+[2025-11-13T13:27:16.012486] Download failed (Unknown error): 本編9sec.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:27:16.302937] Starting download: 追加解除.mp3 (Total size 3.64 MB)
+[2025-11-13T13:27:16.303275] Download failed (Unknown error): 追加解除.mp3, name 'aiofiles' is not defined
+[2025-11-13T13:27:16.303829] Download summary for RJ51890: 0/7 succeeded.
+[2025-11-13T13:27:17.308387] 批量下载完成。成功下载 0 / 3 个作品。
+[2025-11-13T13:29:03.780237] Searching for '催眠' on page 1, size 3
+[2025-11-13T13:29:04.536994] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:29:04.537418] [ASMR API] 切换到 API: https://api.asmr-100.com
+[2025-11-13T13:29:07.102852] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:29:07.103414] [ASMR API] 切换到 API: https://api.asmr-200.com
+[2025-11-13T13:29:10.430498] API https://api.asmr-200.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:29:10.430975] [ASMR API] 切换到 API: https://api.asmr-300.com
+[2025-11-13T13:29:29.794605] Fetching info for RJ256468...
+[2025-11-13T13:29:29.943545] API https://api.asmr-300.com request failed for /api/workInfo/256468: ClientConnectorError: Cannot connect to host api.asmr-300.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:29:29.944101] [ASMR API] 切换到 API: https://api.asmr.one
+[2025-11-13T13:29:31.838090] API https://api.asmr.one request failed for /api/workInfo/256468: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:29:31.838543] [ASMR API] 切换到 API: https://api.asmr-100.com
+[2025-11-13T13:29:33.170922] API https://api.asmr-100.com request failed for /api/workInfo/256468: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:29:33.171412] [ASMR API] 切换到 API: https://api.asmr-200.com
+[2025-11-13T13:29:44.584679] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:53:02.874728] Searching for '催眠' on page 1, size 10
+[2025-11-13T13:53:03.603041] API https://api.asmr.one request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:53:03.603449] [ASMR API] 切换到 API: https://api.asmr-100.com
+[2025-11-13T13:53:06.041289] API https://api.asmr-100.com request failed for /api/search/催眠: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T13:53:06.041821] [ASMR API] 切换到 API: https://api.asmr-200.com
+[2025-11-13T13:53:57.722480] Searching for '催眠' on page 1, size 3
+[2025-11-13T14:00:48.897305] Searching for '魅魔' on page 1, size 3
+[2025-11-13T14:00:49.670644] API https://api.asmr.one request failed for /api/search/魅魔: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:00:49.671134] [ASMR API] 切换到 API: https://api.asmr-100.com
+[2025-11-13T14:00:51.490491] API https://api.asmr-100.com request failed for /api/search/魅魔: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:00:51.490963] [ASMR API] 切换到 API: https://api.asmr-200.com
+[2025-11-13T14:00:52.953134] API https://api.asmr-200.com request failed for /api/search/魅魔: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:00:52.953556] [ASMR API] 切换到 API: https://api.asmr-300.com
+[2025-11-13T14:00:54.408355] API https://api.asmr-300.com request failed for /api/search/魅魔: ClientConnectorError: Cannot connect to host api.asmr-300.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:00:54.408931] [ASMR API] 切换到 API: https://api.asmr.one
+[2025-11-13T14:00:55.418441] All API attempts failed for /api/search/魅魔.
+[2025-11-13T14:01:31.799963] Searching for '魅魔' on page 1, size 3
+[2025-11-13T14:01:32.148862] API https://api.asmr.one request failed for /api/search/魅魔: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:01:32.149416] [ASMR API] 切换到 API: https://api.asmr-100.com
+[2025-11-13T14:01:33.619097] API https://api.asmr-100.com request failed for /api/search/魅魔: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:01:33.619616] [ASMR API] 切换到 API: https://api.asmr-200.com
+[2025-11-13T14:01:35.084920] API https://api.asmr-200.com request failed for /api/search/魅魔: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:01:35.085370] [ASMR API] 切换到 API: https://api.asmr-300.com
+[2025-11-13T14:01:48.019812] Starting bulk download for 20 works: ['RJ309477', 'RJ438625', 'RJ1294343', 'RJ273479', 'RJ291279']...
+[2025-11-13T14:01:48.020206] Fetching info for RJ309477...
+[2025-11-13T14:01:50.463696] Processing download job for RJ309477, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167]
+[2025-11-13T14:01:50.464240] Fetching info for RJ309477...
+[2025-11-13T14:01:53.990924] Starting 167 downloads into C:/ASMR/RJ309477
+[2025-11-13T14:01:55.030354] Starting download: 02_耳舐めオナサポ_カウントダウンなし射精音なし.flac (Total size 569.09 MB)
+[2025-11-13T14:01:55.067875] Starting download: 02_耳舐めオナサポ_カウントダウンなし.flac (Total size 569.09 MB)
+[2025-11-13T14:01:55.174979] Starting download: 02_耳舐めオナサポ_射精音なし.flac (Total size 569.14 MB)
+[2025-11-13T14:04:30.597298] Searching for '监狱' on page 1, size 3
+[2025-11-13T14:04:32.117457] API https://api.asmr.one request failed for /api/search/监狱: ClientConnectorError: Cannot connect to host api.asmr.one:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:04:32.118014] [ASMR API] 切换到 API: https://api.asmr-100.com
+[2025-11-13T14:04:34.193815] API https://api.asmr-100.com request failed for /api/search/监狱: ClientConnectorError: Cannot connect to host api.asmr-100.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:04:34.194457] [ASMR API] 切换到 API: https://api.asmr-200.com
+[2025-11-13T14:04:35.654734] API https://api.asmr-200.com request failed for /api/search/监狱: ClientConnectorError: Cannot connect to host api.asmr-200.com:443 ssl:default [指定的网络名不再可用。]
+[2025-11-13T14:04:35.655122] [ASMR API] 切换到 API: https://api.asmr-300.com
+[2025-11-13T14:04:42.513070] Starting bulk download for 3 works: ['RJ1237795', 'RJ1412304', 'RJ1414744']...
+[2025-11-13T14:04:42.513465] Fetching info for RJ1237795...
+[2025-11-13T14:04:45.219968] Processing download job for RJ1237795, indices: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131]
+[2025-11-13T14:04:45.220575] Fetching info for RJ1237795...
+[2025-11-13T14:04:49.210196] Starting 131 downloads into C:/ASMR/RJ1237795
+[2025-11-13T14:04:49.861281] Starting download: 1_【芙洛拉】 角色介绍.jpg (Total size 888.65 KB)
+[2025-11-13T14:04:49.937275] Starting download: 0_标语.jpg (Total size 165.57 KB)
+[2025-11-13T14:04:50.213394] Starting download: 2_故事梗概.jpg (Total size 1.62 MB)
+[2025-11-13T14:04:50.441374] Download successful: 0_标语.jpg
+[2025-11-13T14:04:50.520034] Download successful: 1_【芙洛拉】 角色介绍.jpg
+[2025-11-13T14:04:50.724939] Starting download: 3_路线分岐.png (Total size 1.13 MB)
+[2025-11-13T14:04:50.781689] Starting download: 01.序章(敌国高级妓女 芙洛拉).mp3 (Total size 14.10 MB)
+[2025-11-13T14:04:51.703820] Download successful: 2_故事梗概.jpg
+[2025-11-13T14:04:51.958812] Starting download: 01.序章(敌国高级妓女 芙洛拉).mp3.vtt (Total size 4.01 KB)
+[2025-11-13T14:04:51.959995] Download successful: 01.序章(敌国高级妓女 芙洛拉).mp3.vtt
+[2025-11-13T14:04:52.034505] Download successful: 3_路线分岐.png
+[2025-11-13T14:04:52.265303] Starting download: 02.粘腻地猛攻乳头开发.mp3 (Total size 31.59 MB)
+[2025-11-13T14:04:52.564627] Starting download: 02.粘腻地猛攻乳头开发.mp3.vtt (Total size 6.64 KB)
+[2025-11-13T14:04:52.565740] Download successful: 02.粘腻地猛攻乳头开发.mp3.vtt
+[2025-11-13T14:04:52.850266] Starting download: 03.幸福的监狱与猛攻乳头手淫.mp3 (Total size 32.68 MB)
+[2025-11-13T14:04:53.713616] Download successful: 01.序章(敌国高级妓女 芙洛拉).mp3
+[2025-11-13T14:04:54.042804] Starting download: 03.幸福的监狱与猛攻乳头手淫.mp3.vtt (Total size 7.97 KB)
+[2025-11-13T14:04:54.044262] Download successful: 03.幸福的监狱与猛攻乳头手淫.mp3.vtt
+[2025-11-13T14:04:54.842326] Starting download: 01.序章(敌国高级妓女 芙洛拉).mp3 (Total size 14.10 MB)
+[2025-11-13T14:04:56.081740] Download successful: 02.粘腻地猛攻乳头开发.mp3
+[2025-11-13T14:04:56.553079] Starting download: 01.序章(敌国高级妓女 芙洛拉).mp3.vtt (Total size 4.01 KB)
+[2025-11-13T14:04:56.554226] Download successful: 01.序章(敌国高级妓女 芙洛拉).mp3.vtt
+[2025-11-13T14:04:56.837079] Starting download: 02.粘腻地猛攻乳头开发.mp3 (Total size 31.59 MB)
+[2025-11-13T14:04:57.799479] Download successful: 01.序章(敌国高级妓女 芙洛拉).mp3
+[2025-11-13T14:04:58.043216] Starting download: 02.粘腻地猛攻乳头开发.mp3.vtt (Total size 6.64 KB)
+[2025-11-13T14:04:58.044959] Download successful: 02.粘腻地猛攻乳头开发.mp3.vtt
+[2025-11-13T14:04:58.477438] Starting download: 04.妓女自慰的故事与只刺激乳头完成射精.mp3 (Total size 32.19 MB)
+[2025-11-13T14:05:02.626848] Download successful: 03.幸福的监狱与猛攻乳头手淫.mp3
+[2025-11-13T14:05:03.010587] Starting download: 04.妓女自慰的故事与只刺激乳头完成射精.mp3.vtt (Total size 8.04 KB)
+[2025-11-13T14:05:03.026710] Download successful: 04.妓女自慰的故事与只刺激乳头完成射精.mp3.vtt
+[2025-11-13T14:05:03.278856] Download successful: 02.粘腻地猛攻乳头开发.mp3
+[2025-11-13T14:05:03.302918] Starting download: 05.心旌荡漾般的猛攻乳头调教.mp3 (Total size 33.00 MB)
+[2025-11-13T14:05:03.599147] Download successful: 04.妓女自慰的故事与只刺激乳头完成射精.mp3
+[2025-11-13T14:05:03.804635] Starting download: 05.心旌荡漾般的猛攻乳头调教.mp3.vtt (Total size 7.62 KB)
+[2025-11-13T14:05:03.805719] Download successful: 05.心旌荡漾般的猛攻乳头调教.mp3.vtt
+[2025-11-13T14:05:04.076783] Starting download: 06.猛攻乳头忍住不自慰的游戏.mp3.vtt (Total size 7.96 KB)
+[2025-11-13T14:05:04.077249] Starting download: 06.猛攻乳头忍住不自慰的游戏.mp3 (Total size 31.91 MB)
+[2025-11-13T14:05:04.079246] Download successful: 06.猛攻乳头忍住不自慰的游戏.mp3.vtt
+[2025-11-13T14:05:04.800988] Starting download: 05.心旌荡漾般的猛攻乳头调教.mp3 (Total size 33.00 MB)
+[2025-11-13T14:05:09.619197] Download successful: 05.心旌荡漾般的猛攻乳头调教.mp3
+[2025-11-13T14:05:09.921120] Download successful: 06.猛攻乳头忍住不自慰的游戏.mp3
+[2025-11-13T14:05:10.096735] Starting download: 05.心旌荡漾般的猛攻乳头调教.mp3.vtt (Total size 7.62 KB)
+[2025-11-13T14:05:10.098163] Download successful: 05.心旌荡漾般的猛攻乳头调教.mp3.vtt
+[2025-11-13T14:05:10.340162] Download successful: 05.心旌荡漾般的猛攻乳头调教.mp3
+[2025-11-13T14:05:10.367893] Starting download: 07.开发女生乳头的故事与下流地猛攻乳头达到雌性高潮.mp3.vtt (Total size 9.61 KB)
+[2025-11-13T14:05:10.371758] Download successful: 07.开发女生乳头的故事与下流地猛攻乳头达到雌性高潮.mp3.vtt
+[2025-11-13T14:05:10.420388] Starting download: 07.开发女生乳头的故事与下流地猛攻乳头达到雌性高潮.mp3 (Total size 34.12 MB)
+[2025-11-13T14:05:10.828282] Starting download: 01.序章(敌国高级妓女 芙洛拉).mp3.vtt (Total size 4.01 KB)
+[2025-11-13T14:05:10.829500] Download successful: 01.序章(敌国高级妓女 芙洛拉).mp3.vtt
+[2025-11-13T14:05:11.117850] Starting download: 01.序章(敌国高级妓女 芙洛拉).mp3 (Total size 14.10 MB)
+[2025-11-13T14:05:11.315461] Starting download: 02.粘腻地猛攻乳头开发.mp3 (Total size 31.59 MB)
+[2025-11-13T14:05:13.697389] Download successful: 01.序章(敌国高级妓女 芙洛拉).mp3
+[2025-11-13T14:05:14.149845] Starting download: 02.粘腻地猛攻乳头开发.mp3.vtt (Total size 6.64 KB)
+[2025-11-13T14:05:14.151144] Download successful: 02.粘腻地猛攻乳头开发.mp3.vtt
+[2025-11-13T14:05:14.760159] Starting download: 03.幸福的监狱与猛攻乳头手淫.mp3 (Total size 32.67 MB)
+[2025-11-13T14:05:14.795914] Download successful: 07.开发女生乳头的故事与下流地猛攻乳头达到雌性高潮.mp3
+[2025-11-13T14:05:15.324662] Starting download: 03.幸福的监狱与猛攻乳头手淫.mp3.vtt (Total size 7.97 KB)
+[2025-11-13T14:05:15.326099] Download successful: 03.幸福的监狱与猛攻乳头手淫.mp3.vtt
+[2025-11-13T14:05:15.679026] Download successful: 02.粘腻地猛攻乳头开发.mp3
+[2025-11-13T14:05:16.156972] Starting download: 04.妓女自慰的故事与只刺激乳头完成射精.mp3 (Total size 32.19 MB)
+[2025-11-13T14:05:16.700836] Starting download: 04.妓女自慰的故事与只刺激乳头完成射精.mp3.vtt (Total size 7.80 KB)
+[2025-11-13T14:05:16.702616] Download successful: 04.妓女自慰的故事与只刺激乳头完成射精.mp3.vtt
+[2025-11-13T14:05:17.034648] Starting download: 05.心旌荡漾般的猛攻乳头调教.mp3 (Total size 33.00 MB)
+[2025-11-13T14:05:21.877410] Download successful: 03.幸福的监狱与猛攻乳头手淫.mp3
+[2025-11-13T14:05:22.521134] Starting download: 05.心旌荡漾般的猛攻乳头调教.mp3.vtt (Total size 7.62 KB)
+[2025-11-13T14:05:22.522858] Download successful: 05.心旌荡漾般的猛攻乳头调教.mp3.vtt
+[2025-11-13T14:05:23.031186] Download successful: 04.妓女自慰的故事与只刺激乳头完成射精.mp3
+[2025-11-13T14:05:23.329961] Starting download: 06.猛攻乳头忍住不自慰的游戏.mp3 (Total size 31.91 MB)
+[2025-11-13T14:05:23.609715] Starting download: 06.猛攻乳头忍住不自慰的游戏.mp3.vtt (Total size 7.96 KB)
+[2025-11-13T14:05:23.611256] Download successful: 06.猛攻乳头忍住不自慰的游戏.mp3.vtt
+[2025-11-13T14:05:24.113134] Starting download: 07.开发女生乳头的故事与下流地猛攻乳头达到雌性高潮.mp3 (Total size 34.12 MB)
+[2025-11-13T14:05:28.529650] Download successful: 07.开发女生乳头的故事与下流地猛攻乳头达到雌性高潮.mp3
+[2025-11-13T14:05:28.892485] Download successful: 06.猛攻乳头忍住不自慰的游戏.mp3
+[2025-11-13T14:05:29.138990] Starting download: 07.开发女生乳头的故事与下流地猛攻乳头达到雌性高潮.mp3.vtt (Total size 9.61 KB)
+[2025-11-13T14:05:29.140269] Download successful: 07.开发女生乳头的故事与下流地猛攻乳头达到雌性高潮.mp3.vtt
+[2025-11-13T14:05:29.455566] Starting download: 01.序章(敌国高级妓女 芙洛拉).mp3 (Total size 14.10 MB)
+[2025-11-13T14:05:29.733119] Starting download: 01.序章(敌国高级妓女 芙洛拉).mp3.vtt (Total size 4.01 KB)
+[2025-11-13T14:05:29.735370] Download successful: 01.序章(敌国高级妓女 芙洛拉).mp3.vtt
+[2025-11-13T14:05:29.992207] Starting download: 02.粘腻地猛攻乳头开发.mp3 (Total size 31.59 MB)
